@@ -1,0 +1,163 @@
+{
+	@type=searchPage,
+	endeca:auditInfo={
+		ecr:resourcePath=/pages/storeSiteUS/search,
+		ecr:innerPath=null
+	},
+	name=Search Page,
+	topSection=[],
+	mainSection=[{
+		@type=searchBreadCrumb,
+		endeca:auditInfo={
+			ecr:resourcePath=/pages/storeSiteUS/search,
+			ecr:innerPath=mainSection[0]
+		},
+		name=Search Bread Crumb,
+		displayName=,
+		url=
+	}],
+	left=[{
+		@type=searchSlot,
+		endeca:auditInfo={
+			ecr:resourcePath=/pages/storeSiteUS/search,
+			ecr:innerPath=left[0]
+		},
+		name=Search Slot,
+		contentPaths=[/content/Shared/searchSlot],
+		templateTypes=[LeftSectionSearchContainer],
+		templateIds=[],
+		ruleLimit=1,
+		contents=[{
+			@type=leftSectionSearchContainer,
+			endeca:auditInfo={
+				ecr:resourcePath=content/Shared/searchSlot/searchSlot,
+				ecr:innerPath=null
+			},
+			name=Left Section Searchs,
+			leftSectionSearchs=[{
+				@type=searchRefinementHierarchy,
+				name=Categories Hierarchy Refinement,
+				endeca:auditInfo={
+					ecr:resourcePath=content/Shared/searchSlot/searchSlot,
+					ecr:innerPath=leftSectionSearchs[0]
+				},
+				dimenionDisplayLabel=Categories,
+				dimensionName=Categories
+			},
+			{
+				refinements=[],
+				@type=searchRefinementMultiSelect,
+				name=Multi Select Refinement - Product Style,
+				endeca:auditInfo={
+					ecr:resourcePath=content/Shared/searchSlot/searchSlot,
+					ecr:innerPath=leftSectionSearchs[1]
+				},
+				displayName=Product Style,
+				dimenionDisplayLabel=Product Style,
+				dimensionName=ProductStyle
+			},
+			{
+				refinements=[],
+				@type=searchRefinementMultiSelect,
+				name=Multi Select Refinement - Brand,
+				endeca:auditInfo={
+					ecr:resourcePath=content/Shared/searchSlot/searchSlot,
+					ecr:innerPath=leftSectionSearchs[2]
+				},
+				displayName=Brand,
+				dimenionDisplayLabel=Brand,
+				dimensionName=Brand
+			},
+			{
+				refinements=[],
+				@type=searchRefinementMultiSelect,
+				name=Multi Select Refinement - Color,
+				endeca:auditInfo={
+					ecr:resourcePath=content/Shared/searchSlot/searchSlot,
+					ecr:innerPath=leftSectionSearchs[3]
+				},
+				displayName=Color,
+				dimenionDisplayLabel=Color,
+				dimensionName=Color
+			},
+			{
+				refinements=[],
+				@type=searchRefinementMultiSelect,
+				name=Multi Select Refinement - Flex Attribute,
+				endeca:auditInfo={
+					ecr:resourcePath=content/Shared/searchSlot/searchSlot,
+					ecr:innerPath=leftSectionSearchs[4]
+				},
+				displayName=Wind Resistance,
+				dimenionDisplayLabel=Wind Resistance,
+				dimensionName=Wind_Resistance
+			}]
+		}]
+	}],
+	right=[
+	{
+		OnePageRltsAmount=1,
+		sortOptions=[com.endeca.infront.cartridge.model.SortOptionLabel@34051c41,
+		com.endeca.infront.cartridge.model.SortOptionLabel@3b820a15,
+		com.endeca.infront.cartridge.model.SortOptionLabel@56640738],
+		DTO=SearchResultView[productIdList=[],
+		mAuxProducts=[]],
+		@type=searchResult,
+		sortByOptions=[com.aaxiscommerce.acp.acrs.endeca.contentitem.ACRSNavigationAction@11fa93a3,
+		com.aaxiscommerce.acp.acrs.endeca.contentitem.ACRSNavigationAction@59f2bb8d,
+		com.aaxiscommerce.acp.acrs.endeca.contentitem.ACRSNavigationAction@4ef7541d],
+		recsPerPage=21,
+		adjustments={
+			subRecordFieldNames=[,
+			productId,
+			skuId],
+			subRecordsPerAggregateRecord=ALL,
+			recordDisplayFieldName=displayName,
+			boostStrata=[],
+			fieldNames=[displayName,
+			description,
+			productId,
+			listPrice,
+			salePrice,
+			assetType,
+			productImage,
+			briefDescription,
+			largeImage,
+			productRating,
+			ratingCount,
+			parentCategoryName,
+			New,
+			Brand],
+			@type=searchResult,
+			endeca:auditInfo={
+				ecr:resourcePath=/pages/storeSiteUS/search,
+				ecr:innerPath=right[1]
+			},
+			name=search Result,
+			buryStrata=[],
+			recordsPerPage=21
+		},
+		totalNumRecs=1,
+		endeca:auditInfo={
+			ecr:resourcePath=/pages/storeSiteUS/search,
+			ecr:innerPath=right[1]
+		},
+		name=search Result,
+		firstRecNum=1,
+		lastRecNum=1,
+		pagingActionTemplate=com.endeca.infront.cartridge.model.NavigationAction@4fb3646b,
+		pagination=com.aaxiscommerce.acp.acrs.endeca.contentitem.ACRSPagination@a85d5ae,
+		records=[com.endeca.infront.cartridge.model.Record@588f97e7],
+		precomputedSorts=[]
+	}],
+	footer=[xxx],
+	cssName=,
+	jsName=plp,
+	endeca:siteRootPath=/pages,
+	endeca:contentPath=/search,
+	endeca:siteState=Site Id: /storeSiteUS,
+	previewModuleUrl=http://xxx-endeca:8006/ifcr,
+	atg:currentSiteProductionURL=localqa.xxx.com,
+	orignalUrl=%2Fsearch%2FCommercial-Roofing%2F_%2FN-zbq2xl,
+	sessionTimeForJsUse=30000
+}

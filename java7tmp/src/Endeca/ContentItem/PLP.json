@@ -1,0 +1,443 @@
+{
+	@type=searchPage,
+	endeca:auditInfo={
+		ecr:resourcePath=/pages/storeSiteUS/search,
+		ecr:innerPath=null
+	},
+	name=Search Page,
+	topSection=[{
+		@type=headerSlot,
+		endeca:auditInfo={
+			ecr:resourcePath=/pages/storeSiteUS/search,
+			ecr:innerPath=topSection[0]
+		},
+		name=Header Slot,
+		contentPaths=[/content/Shared/browseHeader],
+		templateTypes=[TopSectionContainer],
+		templateIds=[],
+		ruleLimit=1,
+		contents=[{
+			@type=topSectionContainer,
+			endeca:auditInfo={
+				ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+				ecr:innerPath=null
+			},
+			name=Top Section Container,
+			topSections=[{
+				@type=header,
+				endeca:auditInfo={
+					ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+					ecr:innerPath=topSections[0]
+				},
+				name=Header,
+				headerLogoCartridge=[{
+					@type=headerLogo,
+					endeca:auditInfo={
+						ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+						ecr:innerPath=topSections[0]/headerLogoCartridge[0]
+					},
+					name=HeaderLogo,
+					logoLink=logo.png,
+					cssStyle=max-width: 242px
+				}],
+				topCartridgesSection=[{
+					@type=navMain,
+					endeca:auditInfo={
+						ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+						ecr:innerPath=topSections[0]/topCartridgesSection[0]
+					},
+					name=Navigation Bar,
+					navNodes=[{
+						@type=navRootNode,
+						endeca:auditInfo={
+							ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+							ecr:innerPath=topSections[0]/topCartridgesSection[0]/navNodes[0]
+						},
+						name=SHOP,
+						displayName=SHOP,
+						url=,
+						subNodes=[{
+							@type=navLevelOneNode,
+							endeca:auditInfo={
+								ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+								ecr:innerPath=topSections[0]/topCartridgesSection[0]/navNodes[0]/subNodes[0]
+							},
+							name=Residential Roofing,
+							category={
+								@type=navCategoryLink,
+								endeca:auditInfo={
+									ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+									ecr:innerPath=topSections[0]/topCartridgesSection[0]/navNodes[0]/subNodes[0]/category
+								},
+								name=Navigation Catagory Link,
+								imageLink=,
+								url=com.endeca.infront.cartridge.model.LinkBuilder@5d52275e,
+								dimName=Residential Roofing,
+								categoryId=CAT_SSR,
+								categoryUrl=/search/_/N-zbq2xw
+							},
+							subNode={
+								@type=navLevelTwoNode,
+								endeca:auditInfo={
+									ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+									ecr:innerPath=topSections[0]/topCartridgesSection[0]/navNodes[0]/subNodes[0]/subNode
+								},
+								name=Navigation Level Two Node,
+								maxImgCount=3,
+								maxLinkCount=6,
+								rightBanner={
+									@type=contentBanner,
+									endeca:auditInfo={
+										ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+										ecr:innerPath=topSections[0]/topCartridgesSection[0]/navNodes[0]/subNodes[0]/subNode/rightBanner
+									},
+									name=Banner,
+									htmlContent=<div class="popular-brands"> <h3>POPULAR BRANDS</h3> <div> <img src="/images/certainTeed.png" alt="" /> <h5>Certain Teed</h5> </div> <div> <img src="/images/tamko.png" alt="" /> <h5>TAMKO</h5> </div> <div> <img src="/images/gaf.png" alt="" /> <h5>GAF</h5> </div></div>
+								},
+								subNodes=[{
+									@type=navCategoryLink,
+									endeca:auditInfo={
+										ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+										ecr:innerPath=topSections[0]/topCartridgesSection[0]/navNodes[0]/subNodes[0]/subNode/subNodes[0]
+									},
+									name=Navigation Category Link,
+									imageLink=/images/roofing1.png,
+									url=com.endeca.infront.cartridge.model.LinkBuilder@3c96bc2f,
+									dimName=Residential Roofing,
+									categoryId=CAT_SSR,
+									categoryUrl=/search/_/N-zbq2xw
+								},
+								{
+									@type=navCategoryLink,
+									endeca:auditInfo={
+										ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+										ecr:innerPath=topSections[0]/topCartridgesSection[0]/navNodes[0]/subNodes[0]/subNode/subNodes[1]
+									},
+									name=Navigation Category Link,
+									imageLink=/images/roofing1.png,
+									url=com.endeca.infront.cartridge.model.LinkBuilder@4c1cd0bc,
+									dimName=Steep Slope Asphalt Shingles,
+									categoryId=CAT_SSR_SSC,
+									categoryUrl=/search/_/N-zbq2xz
+								},
+								{
+									@type=navCategoryLink,
+									endeca:auditInfo={
+										ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+										ecr:innerPath=topSections[0]/topCartridgesSection[0]/navNodes[0]/subNodes[0]/subNode/subNodes[2]
+									},
+									name=Navigation Category Link,
+									imageLink=/images/roofing1.png,
+									url=com.endeca.infront.cartridge.model.LinkBuilder@77cc0dad,
+									dimName=Steep Slope Accessories,
+									categoryId=CAT_SSR_SSA,
+									categoryUrl=/search/_/N-zbq2xy
+								},
+								{
+									@type=navCategoryLink,
+									endeca:auditInfo={
+										ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+										ecr:innerPath=topSections[0]/topCartridgesSection[0]/navNodes[0]/subNodes[0]/subNode/subNodes[3]
+									},
+									name=Navigation Category Link,
+									imageLink=/images/roofing1.png,
+									url=com.endeca.infront.cartridge.model.LinkBuilder@7596164c,
+									dimName=Steep Slope Asphalt Shingles,
+									categoryId=CAT_SSR_SSC,
+									categoryUrl=/search/_/N-zbq2xz
+								},
+								{
+									@type=navCategoryLink,
+									endeca:auditInfo={
+										ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+										ecr:innerPath=topSections[0]/topCartridgesSection[0]/navNodes[0]/subNodes[0]/subNode/subNodes[4]
+									},
+									name=Navigation Category Link,
+									imageLink=/images/roofing1.png,
+									url=com.endeca.infront.cartridge.model.LinkBuilder@509213e3,
+									dimName=Steep Slope Accessories,
+									categoryId=CAT_SSR_SSA,
+									categoryUrl=/search/_/N-zbq2xy
+								},
+								{
+									@type=navCategoryLink,
+									endeca:auditInfo={
+										ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+										ecr:innerPath=topSections[0]/topCartridgesSection[0]/navNodes[0]/subNodes[0]/subNode/subNodes[5]
+									},
+									name=Navigation Category Link,
+									imageLink=/images/roofing1.png,
+									url=com.endeca.infront.cartridge.model.LinkBuilder@2657c568,
+									dimName=Steep Slope Accessories,
+									categoryId=CAT_SSR_SSA,
+									categoryUrl=/search/_/N-zbq2xy
+								}]
+							}
+						}]
+					},
+					{
+						@type=navRootNode,
+						endeca:auditInfo={
+							ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+							ecr:innerPath=topSections[0]/topCartridgesSection[0]/navNodes[1]
+						},
+						name=SALE,
+						displayName=SALE,
+						url=,
+						subNodes=[]
+					},
+					{
+						@type=navRootNode,
+						endeca:auditInfo={
+							ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+							ecr:innerPath=topSections[0]/topCartridgesSection[0]/navNodes[2]
+						},
+						name=ABOUT,
+						displayName=ABOUT,
+						url=,
+						subNodes=[]
+					},
+					{
+						@type=navRootNode,
+						endeca:auditInfo={
+							ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+							ecr:innerPath=topSections[0]/topCartridgesSection[0]/navNodes[3]
+						},
+						name=CAREERS,
+						displayName=CAREERS,
+						url=,
+						subNodes=[]
+					},
+					{
+						@type=navRootNode,
+						endeca:auditInfo={
+							ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+							ecr:innerPath=topSections[0]/topCartridgesSection[0]/navNodes[4]
+						},
+						name=CONTACT,
+						displayName=CONTACT,
+						url=,
+						subNodes=[]
+					}]
+				},
+				{
+					@type=switchAccount,
+					endeca:auditInfo={
+						ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+						ecr:innerPath=topSections[0]/topCartridgesSection[1]
+					},
+					name=Switch Account
+				},
+				{
+					@type=searchBox,
+					endeca:auditInfo={
+						ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+						ecr:innerPath=topSections[0]/topCartridgesSection[2]
+					},
+					name=Search Box,
+					matchMode=all,
+					autoSuggestEnabled=true,
+					minAutoSuggestInputLength=3
+				},
+				{
+					@type=cartMini,
+					endeca:auditInfo={
+						ecr:resourcePath=content/Shared/browseHeader/browseHeader,
+						ecr:innerPath=topSections[0]/topCartridgesSection[3]
+					},
+					name=Mini Cart,
+					DTO=com.beacon.commerce.order.dto.BCOrderDetailView@4c614282
+				}],
+				DTO=acp.commerce.view.HeaderDTO@5558bfb
+			}]
+		}]
+	}],
+	mainSection=[{
+		@type=searchBreadCrumb,
+		endeca:auditInfo={
+			ecr:resourcePath=/pages/storeSiteUS/search,
+			ecr:innerPath=mainSection[0]
+		},
+		name=Search Bread Crumb,
+		displayName=,
+		url=
+	}],
+	left=[{
+		@type=searchSlot,
+		endeca:auditInfo={
+			ecr:resourcePath=/pages/storeSiteUS/search,
+			ecr:innerPath=left[0]
+		},
+		name=Search Slot,
+		contentPaths=[/content/Shared/searchSlot],
+		templateTypes=[LeftSectionSearchContainer],
+		templateIds=[],
+		ruleLimit=1,
+		contents=[{
+			@type=leftSectionSearchContainer,
+			endeca:auditInfo={
+				ecr:resourcePath=content/Shared/searchSlot/searchSlot,
+				ecr:innerPath=null
+			},
+			name=Left Section Searchs,
+			leftSectionSearchs=[{
+				@type=searchRefinementHierarchy,
+				name=Categories Hierarchy Refinement,
+				endeca:auditInfo={
+					ecr:resourcePath=content/Shared/searchSlot/searchSlot,
+					ecr:innerPath=leftSectionSearchs[0]
+				},
+				dimenionDisplayLabel=Categories,
+				dimensionName=Categories
+			},
+			{
+				refinements=[],
+				@type=searchRefinementMultiSelect,
+				name=Multi Select Refinement - Product Style,
+				endeca:auditInfo={
+					ecr:resourcePath=content/Shared/searchSlot/searchSlot,
+					ecr:innerPath=leftSectionSearchs[1]
+				},
+				displayName=Product Style,
+				dimenionDisplayLabel=Product Style,
+				dimensionName=ProductStyle
+			},
+			{
+				refinements=[],
+				@type=searchRefinementMultiSelect,
+				name=Multi Select Refinement - Brand,
+				endeca:auditInfo={
+					ecr:resourcePath=content/Shared/searchSlot/searchSlot,
+					ecr:innerPath=leftSectionSearchs[2]
+				},
+				displayName=Brand,
+				dimenionDisplayLabel=Brand,
+				dimensionName=Brand
+			},
+			{
+				refinements=[],
+				@type=searchRefinementMultiSelect,
+				name=Multi Select Refinement - Color,
+				endeca:auditInfo={
+					ecr:resourcePath=content/Shared/searchSlot/searchSlot,
+					ecr:innerPath=leftSectionSearchs[3]
+				},
+				displayName=Color,
+				dimenionDisplayLabel=Color,
+				dimensionName=Color
+			},
+			{
+				refinements=[],
+				@type=searchRefinementMultiSelect,
+				name=Multi Select Refinement - Flex Attribute,
+				endeca:auditInfo={
+					ecr:resourcePath=content/Shared/searchSlot/searchSlot,
+					ecr:innerPath=leftSectionSearchs[4]
+				},
+				displayName=Wind Resistance,
+				dimenionDisplayLabel=Wind Resistance,
+				dimensionName=Wind_Resistance
+			}]
+		}]
+	}],
+	right=[{
+		removeAllAction=com.endeca.infront.cartridge.model.NavigationAction@33590e79,
+		refinementCrumbs=[com.endeca.infront.cartridge.model.RefinementBreadcrumb@1bc54445],
+		geoFilterCrumb=null,
+		@type=searchBreadBox,
+		name=Bread Box,
+		endeca:auditInfo={
+			ecr:resourcePath=/pages/storeSiteUS/search,
+			ecr:innerPath=right[0]
+		},
+		searchCrumbs=[],
+		rangeFilterCrumbs=[]
+	},
+	{
+		OnePageRltsAmount=1,
+		sortOptions=[com.endeca.infront.cartridge.model.SortOptionLabel@34051c41,
+		com.endeca.infront.cartridge.model.SortOptionLabel@3b820a15,
+		com.endeca.infront.cartridge.model.SortOptionLabel@56640738],
+		DTO=SearchResultView[productIdList=[],
+		mAuxProducts=[]],
+		@type=searchResult,
+		sortByOptions=[com.aaxiscommerce.acp.acrs.endeca.contentitem.ACRSNavigationAction@11fa93a3,
+		com.aaxiscommerce.acp.acrs.endeca.contentitem.ACRSNavigationAction@59f2bb8d,
+		com.aaxiscommerce.acp.acrs.endeca.contentitem.ACRSNavigationAction@4ef7541d],
+		recsPerPage=21,
+		adjustments={
+			subRecordFieldNames=[,
+			productId,
+			skuId],
+			subRecordsPerAggregateRecord=ALL,
+			recordDisplayFieldName=displayName,
+			boostStrata=[],
+			fieldNames=[displayName,
+			description,
+			productId,
+			listPrice,
+			salePrice,
+			assetType,
+			productImage,
+			briefDescription,
+			largeImage,
+			productRating,
+			ratingCount,
+			parentCategoryName,
+			New,
+			Brand],
+			@type=searchResult,
+			endeca:auditInfo={
+				ecr:resourcePath=/pages/storeSiteUS/search,
+				ecr:innerPath=right[1]
+			},
+			name=search Result,
+			buryStrata=[],
+			recordsPerPage=21
+		},
+		totalNumRecs=1,
+		endeca:auditInfo={
+			ecr:resourcePath=/pages/storeSiteUS/search,
+			ecr:innerPath=right[1]
+		},
+		name=search Result,
+		firstRecNum=1,
+		lastRecNum=1,
+		pagingActionTemplate=com.endeca.infront.cartridge.model.NavigationAction@4fb3646b,
+		pagination=com.aaxiscommerce.acp.acrs.endeca.contentitem.ACRSPagination@a85d5ae,
+		records=[com.endeca.infront.cartridge.model.Record@588f97e7],
+		precomputedSorts=[]
+	}],
+	footer=[{
+		@type=footerSlot,
+		endeca:auditInfo={
+			ecr:resourcePath=/pages/storeSiteUS/search,
+			ecr:innerPath=footer[0]
+		},
+		name=footer,
+		contentPaths=[/content/Shared/footer],
+		templateTypes=[BottomSection],
+		templateIds=[],
+		ruleLimit=1,
+		contents=[{
+			@type=footerContentBanner,
+			endeca:auditInfo={
+				ecr:resourcePath=content/Shared/footer/footer,
+				ecr:innerPath=null
+			},
+			name=Banner,
+			htmlContent=<!-- footer --> <footer class="hole-footer"> <!-- Banner --> <div class="footer" id="footer"> <!--container--> <div class="container"> <!--row--> <div class="row"> <!--support--> <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"> <h3> Support </h3> <ul> <li class="supportLi"> <p> Contact us to place an order: </p> <p> 505 Huntmar Park Drive<br/> Suite #300<br/> Herndon,
+			VA 20170 </p> <p> <a class="inline" href="callto:571.323.3939"> <strong> PH: 571.323.3939 </strong> </a> </p> <p> <a class="inline"> <strong> FX: 703.437.1919 </strong> </a> </p> </li> </ul> </div> <!--our offers--> <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> <h3> The Beacon Family of Companies </h3> <div class='row'> <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"> <ul> <li><a href="http://www.alroofing.com"> Alabama Roofing Supply </a></li> <li><a href="http://www.roofingstore.ca/"> All Weather Products </a></li> <li><a href="http://www.applicatorssales.com"> Applicators Sales</a></li> <li><a href="http://www.brscanada.com"> Beacon Roofing Supply Canada Company </a></li> <li><a href="http://www.beaconsales.com"> Beacon Sales </a></li> <li><a href="http://www.bestdistributing.com"> Best Distributing </a></li><li><a href="http://www.cassadymcclure.com"> Cassady Pierce </a></li><li><a href="http://www.coastalmetalservice.com"> Coastal Metal Service </a></li><li><a href="http://www.cmssupply.com"> Construction Materials Supply </a></li><li><a href="http://www.dealerschoicedistribution.com"> Dealers Choice</a></li> </ul> </div> <!--shipping info--> <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"> <ul> <li><a href="http://www.enerconroof.com"> New products </a></li> <li><a href="http://www.fordwholesale.com"> Ford Wholesale </a></li> <li><a href="http://www.groupebedard.com"> Groupe Bédard</a></li> <li><a href="http://www.jgabeacon.com"> JGA Beacon </a></li> <li><a href="http://www.cassadymcclure.com/"> McClure Johnston </a></li> <li><a href="http://www.mississippiroofingsupply.com"> Mississippi Roofing Supply </a></li><li><a href="http://www.nccrs.com"> North Coast Roofing Systems </a></li><li><a href="http://www.pacificsupply.com"> Pacific Supply </a></li><li><a href="http://www.procoatsystems.com"> ProCoat Systems </a></li><li><a href="http://www.posislope.com"> Posi-Slope </a></li><li><a href="http://www.qualityroofingsupply.com"> Quality Roofing Supply </a></li> </ul> </div> <!--customer service--> <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"> <ul> <li><a href="http://www.rciroofingsupply.com"> RCI Roofing Supply </a></li> <li><a href="http://www.risris.com/"> Roofing and Insulation Supply (RIS) </a></li> <li><a href="http://www.roofdepot.com"> Roof Depot</a></li> <li><a href="http://www.rsgroof.com"> Roofing Supply Group </a></li> <li><a href="http://www.southernroofcenter.com"> Southern Roof Center </a></li> <li><a href="http://statewidewholesaleinc.com/"> Statewide Wholesale </a></li><li><a href="http://www.smcroof.com"> Structural Materials</a></li><li><a href="http://www.roofcenter.com"> The Roof Center</a></li><li><a href="http://www.westendroofing.com"> West End Roofing,
+			Siding & Windows</a></li><li><a href="http://wrs.us.com/"> Wholesale Roofing Supply</a></li> </ul> </div> </div> </div> <!--stay in touch--> <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 "> <h3> Stay in touch </h3> <ul> <li> <div class="input-append newsLatterBox text-center"> <input type="text" class="full text-center" placeholder="Email "> <button class="btn bg-gray" type="button"> Subscribe <i class="fa fa-long-arrow-right"> </i></button> </div> </li> </ul> <ul class="social"> <li><a href="http://facebook.com"> <i class=" fa fa-facebook"> &nbsp; </i> </a></li> <li><a href="http://twitter.com"> <i class="fa fa-twitter"> &nbsp; </i> </a></li> <li><a href="https://plus.google.com"> <i class="fa fa-google-plus"> &nbsp; </i> </a></li> <li><a href="http://pinterest.com"> <i class="fa fa-pinterest"> &nbsp; </i> </a></li> <li><a href="http://youtube.com"> <i class="fa fa-youtube"> &nbsp; </i> </a></li> </ul> </div> </div> </div> </div> <!--footer bottom--> <div class="footer-bottom"> <div class="container"> <p class="pull-left"> &copy; 2016 Beacon Roofing Supply. </p> <!-- <div class="pull-right paymentMethodImg"> <img height="30" class="pull-right" src="../data/footer1.png" alt="img"> <img height="30" class="pull-right" src="../data/footer2.png" alt="img"> <img height="30" class="pull-right" src="../data/footer3.png" alt="img"> <img height="30" class="pull-right" src="../data/footer4.png" alt="img"> <img height="30" class="pull-right" src="../data/footer5.png" alt="img"></div>--> </div> </div> </footer> <!-- /footer -->
+		}]
+	}],
+	cssName=,
+	jsName=plp,
+	endeca:siteRootPath=/pages,
+	endeca:contentPath=/search,
+	endeca:siteState=Site Id: /storeSiteUS,
+	previewModuleUrl=http://beacon-endeca:8006/ifcr,
+	atg:currentSiteProductionURL=localqa.beacon.com,
+	orignalUrl=%2Fsearch%2FCommercial-Roofing%2F_%2FN-zbq2xl,
+	sessionTimeForJsUse=30000
+}

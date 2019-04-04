@@ -1,0 +1,7 @@
+#swagger-ui > section > div.swagger-ui > div > div.information-container.wrapper > section > div > hgroup > a > span {
+    display: none !important;
+}
+
+#swagger-ui > section > div.swagger-ui > div > div.server-container > section > div > label {
+    display: none !important;
+}

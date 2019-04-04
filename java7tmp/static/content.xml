@@ -1,0 +1,2155 @@
+<ContentItem type="TopSectionContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://endeca.com/schema/content/2008">
+  <TemplateId>topSectionContainer</TemplateId>
+  <Name>Top Container</Name>
+  <Property name="topSections">
+    <ContentItemList type="TopSection">
+      <ContentItem type="TopSection">
+        <TemplateId>headerV2</TemplateId>
+        <Name>Header</Name>
+        <Property name="topRowLeftSection">
+          <ContentItemList type="NavRootV2">
+            <ContentItem type="NavRootV2">
+              <TemplateId>navRootNodeV2</TemplateId>
+              <Name>MY ACCOUNT</Name>
+              <Property name="displayName">
+                <String>MY ACCOUNT</String>
+              </Property>
+              <Property name="url">
+                <String/>
+              </Property>
+              <Property name="openNewTabForEnterURL">
+                <Boolean>false</Boolean>
+              </Property>
+              <Property name="subNodeItems">
+                <ContentItemList type="NavRootItemV2">
+                  <ContentItem type="NavRootItemV2">
+                    <TemplateId>navRootNodeItemV2</TemplateId>
+                    <Name>Switch Account</Name>
+                    <Property name="swtichAccount">
+                      <ContentItem type="SwitchAccountSection">
+                        <TemplateId>selectAccountV2</TemplateId>
+                        <Name>Switch Account</Name>
+                        <Property name="displayName">
+                          <String>Switch Account</String>
+                        </Property>
+                      </ContentItem>
+                    </Property>
+                    <Property name="levelOneNode">
+                      <ContentItem xsi:nil="true" type="NavLevelOneV2"/>
+                    </Property>
+                    <Property name="htmlBlock">
+                      <ContentItem xsi:nil="true" type="HtmlBlockV2"/>
+                    </Property>
+                    <Property name="customPage">
+                      <ContentItem xsi:nil="true" type="CustomPageV2"/>
+                    </Property>
+                  </ContentItem>
+                  <ContentItem type="NavRootItemV2">
+                    <TemplateId>navRootNodeItemV2</TemplateId>
+                    <Name>Address Book</Name>
+                    <Property name="swtichAccount">
+                      <ContentItem xsi:nil="true" type="SwitchAccountSection"/>
+                    </Property>
+                    <Property name="levelOneNode">
+                      <ContentItem type="NavLevelOneV2">
+                        <TemplateId>navLevelOneNodeV2</TemplateId>
+                        <Name>Navigation Level One Node</Name>
+                        <Property name="category">
+                          <ContentItem type="navCategoryLink">
+                            <TemplateId>navCategoryLink</TemplateId>
+                            <Name>Address Book</Name>
+                            <Property name="displayName">
+                              <String>Address Book</String>
+                            </Property>
+                            <Property name="imageLink">
+                              <String/>
+                            </Property>
+                            <Property name="url">
+                              <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                <Property name="path">/myAccount/addressBook?activeTab=addressBook</Property>
+                                <Property name="linkType">Global</Property>
+                                <Property name="queryString"/>
+                              </Item>
+                            </Property>
+                            <Property name="openNewTabForEnterURL">
+                              <Boolean>false</Boolean>
+                            </Property>
+                          </ContentItem>
+                        </Property>
+                        <Property name="subNode">
+                          <ContentItem xsi:nil="true" type="NavLevelTwoV2"/>
+                        </Property>
+                      </ContentItem>
+                    </Property>
+                    <Property name="htmlBlock">
+                      <ContentItem xsi:nil="true" type="HtmlBlockV2"/>
+                    </Property>
+                    <Property name="customPage">
+                      <ContentItem xsi:nil="true" type="CustomPageV2"/>
+                    </Property>
+                  </ContentItem>
+                  <ContentItem type="NavRootItemV2">
+                    <TemplateId>navRootNodeItemV2</TemplateId>
+                    <Name>Personal Profile</Name>
+                    <Property name="swtichAccount">
+                      <ContentItem xsi:nil="true" type="SwitchAccountSection"/>
+                    </Property>
+                    <Property name="levelOneNode">
+                      <ContentItem type="NavLevelOneV2">
+                        <TemplateId>navLevelOneNodeV2</TemplateId>
+                        <Name>Navigation Level One Node</Name>
+                        <Property name="category">
+                          <ContentItem type="navCategoryLink">
+                            <TemplateId>navCategoryLink</TemplateId>
+                            <Name>Personal Profile</Name>
+                            <Property name="displayName">
+                              <String>Personal Profile</String>
+                            </Property>
+                            <Property name="imageLink">
+                              <String/>
+                            </Property>
+                            <Property name="url">
+                              <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                <Property name="path">/myAccount/personalInfo?activeTab=personalInfo</Property>
+                                <Property name="linkType">Global</Property>
+                                <Property name="queryString"/>
+                              </Item>
+                            </Property>
+                            <Property name="openNewTabForEnterURL">
+                              <Boolean>false</Boolean>
+                            </Property>
+                          </ContentItem>
+                        </Property>
+                        <Property name="subNode">
+                          <ContentItem xsi:nil="true" type="NavLevelTwoV2"/>
+                        </Property>
+                      </ContentItem>
+                    </Property>
+                    <Property name="htmlBlock">
+                      <ContentItem xsi:nil="true" type="HtmlBlockV2"/>
+                    </Property>
+                    <Property name="customPage">
+                      <ContentItem xsi:nil="true" type="CustomPageV2"/>
+                    </Property>
+                  </ContentItem>
+                  <ContentItem type="NavRootItemV2">
+                    <TemplateId>navRootNodeItemV2</TemplateId>
+                    <Name>Change Password</Name>
+                    <Property name="swtichAccount">
+                      <ContentItem xsi:nil="true" type="SwitchAccountSection"/>
+                    </Property>
+                    <Property name="levelOneNode">
+                      <ContentItem type="NavLevelOneV2">
+                        <TemplateId>navLevelOneNodeV2</TemplateId>
+                        <Name>Navigation Level One Node</Name>
+                        <Property name="category">
+                          <ContentItem type="navCategoryLink">
+                            <TemplateId>navCategoryLink</TemplateId>
+                            <Name>Change Password</Name>
+                            <Property name="displayName">
+                              <String>Change Password</String>
+                            </Property>
+                            <Property name="imageLink">
+                              <String/>
+                            </Property>
+                            <Property name="url">
+                              <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                <Property name="path">/myAccount/changePassword?activeTab=changePassword</Property>
+                                <Property name="linkType">Global</Property>
+                                <Property name="queryString"/>
+                              </Item>
+                            </Property>
+                            <Property name="openNewTabForEnterURL">
+                              <Boolean>false</Boolean>
+                            </Property>
+                          </ContentItem>
+                        </Property>
+                        <Property name="subNode">
+                          <ContentItem xsi:nil="true" type="NavLevelTwoV2"/>
+                        </Property>
+                      </ContentItem>
+                    </Property>
+                    <Property name="htmlBlock">
+                      <ContentItem xsi:nil="true" type="HtmlBlockV2"/>
+                    </Property>
+                    <Property name="customPage">
+                      <ContentItem xsi:nil="true" type="CustomPageV2"/>
+                    </Property>
+                  </ContentItem>
+                  <ContentItem type="NavRootItemV2">
+                    <TemplateId>navRootNodeItemV2</TemplateId>
+                    <Name>User Permission</Name>
+                    <Property name="swtichAccount">
+                      <ContentItem xsi:nil="true" type="SwitchAccountSection"/>
+                    </Property>
+                    <Property name="levelOneNode">
+                      <ContentItem type="NavLevelOneV2">
+                        <TemplateId>navLevelOneNodeV2</TemplateId>
+                        <Name>Navigation Level One Node</Name>
+                        <Property name="category">
+                          <ContentItem type="navCategoryLink">
+                            <TemplateId>navCategoryLink</TemplateId>
+                            <Name>User Permission</Name>
+                            <Property name="displayName">
+                              <String>User Permission</String>
+                            </Property>
+                            <Property name="imageLink">
+                              <String/>
+                            </Property>
+                            <Property name="url">
+                              <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                <Property name="path">/myAccount/userAdministration?activeTab=userOrg</Property>
+                                <Property name="linkType">Global</Property>
+                                <Property name="queryString"/>
+                              </Item>
+                            </Property>
+                            <Property name="openNewTabForEnterURL">
+                              <Boolean>false</Boolean>
+                            </Property>
+                          </ContentItem>
+                        </Property>
+                        <Property name="subNode">
+                          <ContentItem xsi:nil="true" type="NavLevelTwoV2"/>
+                        </Property>
+                      </ContentItem>
+                    </Property>
+                    <Property name="htmlBlock">
+                      <ContentItem xsi:nil="true" type="HtmlBlockV2"/>
+                    </Property>
+                    <Property name="customPage">
+                      <ContentItem xsi:nil="true" type="CustomPageV2"/>
+                    </Property>
+                  </ContentItem>
+                  <ContentItem type="NavRootItemV2">
+                    <TemplateId>navRootNodeItemV2</TemplateId>
+                    <Name>Horizontal Rule</Name>
+                    <Property name="swtichAccount">
+                      <ContentItem xsi:nil="true" type="SwitchAccountSection"/>
+                    </Property>
+                    <Property name="levelOneNode">
+                      <ContentItem xsi:nil="true" type="NavLevelOneV2"/>
+                    </Property>
+                    <Property name="htmlBlock">
+                      <ContentItem type="HtmlBlockV2">
+                        <TemplateId>htmlBlockV2</TemplateId>
+                        <Name>Horizontal Rule</Name>
+                        <Property name="htmlContent">
+                          <String>&lt;hr style="margin-top:7px;margin-bottom:7px;"&gt;</String>
+                        </Property>
+                      </ContentItem>
+                    </Property>
+                    <Property name="customPage">
+                      <ContentItem xsi:nil="true" type="CustomPageV2"/>
+                    </Property>
+                  </ContentItem>
+                  <ContentItem type="NavRootItemV2">
+                    <TemplateId>navRootNodeItemV2</TemplateId>
+                    <Name>Log Out</Name>
+                    <Property name="swtichAccount">
+                      <ContentItem xsi:nil="true" type="SwitchAccountSection"/>
+                    </Property>
+                    <Property name="levelOneNode">
+                      <ContentItem xsi:nil="true" type="NavLevelOneV2"/>
+                    </Property>
+                    <Property name="htmlBlock">
+                      <ContentItem xsi:nil="true" type="HtmlBlockV2"/>
+                    </Property>
+                    <Property name="customPage">
+                      <ContentItem type="CustomPageV2">
+                        <TemplateId>customPageV2</TemplateId>
+                        <Name>Log Out</Name>
+                        <Property name="displayName">
+                          <String>Log Out</String>
+                        </Property>
+                        <Property name="customPageKey">
+                          <String>logout</String>
+                        </Property>
+                      </ContentItem>
+                    </Property>
+                  </ContentItem>
+                </ContentItemList>
+              </Property>
+              <Property name="displayNamePrefix">
+                <String/>
+              </Property>
+              <Property name="displayNameSuffix">
+                <String>&lt;i class="fa fa-caret-down" aria-hidden="true"&gt;&lt;/i&gt;</String>
+              </Property>
+              <Property name="desktopHidden">
+                <Boolean>false</Boolean>
+              </Property>
+              <Property name="mobileHidden">
+                <Boolean>false</Boolean>
+              </Property>
+              <Property name="pageKey">
+                <String/>
+              </Property>
+            </ContentItem>
+            <ContentItem type="NavRootV2">
+              <TemplateId>navRootNodeV2</TemplateId>
+              <Name>ORDER HISTORY</Name>
+              <Property name="displayName">
+                <String>ORDER HISTORY</String>
+              </Property>
+              <Property name="url">
+                <String>/myAccount/orderHistory?activeTab=orderHistory&amp;cleanSearchOpt=true</String>
+              </Property>
+              <Property name="openNewTabForEnterURL">
+                <Boolean>false</Boolean>
+              </Property>
+              <Property name="subNodeItems">
+                <ContentItemList type="NavRootItemV2"/>
+              </Property>
+              <Property name="displayNamePrefix">
+                <String/>
+              </Property>
+              <Property name="displayNameSuffix">
+                <String/>
+              </Property>
+              <Property name="desktopHidden">
+                <Boolean>false</Boolean>
+              </Property>
+              <Property name="mobileHidden">
+                <Boolean>false</Boolean>
+              </Property>
+              <Property name="pageKey">
+                <String/>
+              </Property>
+            </ContentItem>
+            <ContentItem type="NavRootV2">
+              <TemplateId>navRootNodeV2</TemplateId>
+              <Name>STORE LOCATOR</Name>
+              <Property name="displayName">
+                <String>STORE LOCATOR</String>
+              </Property>
+              <Property name="url">
+                <String>/findStore</String>
+              </Property>
+              <Property name="openNewTabForEnterURL">
+                <Boolean>false</Boolean>
+              </Property>
+              <Property name="subNodeItems">
+                <ContentItemList type="NavRootItemV2"/>
+              </Property>
+              <Property name="displayNamePrefix">
+                <String/>
+              </Property>
+              <Property name="displayNameSuffix">
+                <String/>
+              </Property>
+              <Property name="desktopHidden">
+                <Boolean>false</Boolean>
+              </Property>
+              <Property name="mobileHidden">
+                <Boolean>false</Boolean>
+              </Property>
+              <Property name="pageKey">
+                <String/>
+              </Property>
+            </ContentItem>
+          </ContentItemList>
+        </Property>
+        <Property name="topRowRightSection">
+          <ContentItemList type="NavRootV2">
+            <ContentItem type="NavRootV2">
+              <TemplateId>navRootNodeV2</TemplateId>
+              <Name>HELP</Name>
+              <Property name="displayName">
+                <String>HELP</String>
+              </Property>
+              <Property name="url">
+                <String>/help</String>
+              </Property>
+              <Property name="openNewTabForEnterURL">
+                <Boolean>false</Boolean>
+              </Property>
+              <Property name="subNodeItems">
+                <ContentItemList type="NavRootItemV2"/>
+              </Property>
+              <Property name="displayNamePrefix">
+                <String/>
+              </Property>
+              <Property name="displayNameSuffix">
+                <String/>
+              </Property>
+              <Property name="desktopHidden">
+                <Boolean>false</Boolean>
+              </Property>
+              <Property name="mobileHidden">
+                <Boolean>false</Boolean>
+              </Property>
+              <Property name="pageKey">
+                <String/>
+              </Property>
+            </ContentItem>
+            <ContentItem type="NavRootV2">
+              <TemplateId>navRootNodeV2</TemplateId>
+              <Name>LIVE CHAT</Name>
+              <Property name="displayName">
+                <String>&lt;a style="font-weight: bold; color:black" href="javascript:void(0);" onclick="olark('api.box.expand')"&gt;  LIVE CHAT &lt;/a&gt;</String>
+              </Property>
+              <Property name="url">
+                <String/>
+              </Property>
+              <Property name="openNewTabForEnterURL">
+                <Boolean>false</Boolean>
+              </Property>
+              <Property name="subNodeItems">
+                <ContentItemList type="NavRootItemV2">
+                  <ContentItem type="NavRootItemV2">
+                    <TemplateId>navRootNodeItemV2</TemplateId>
+                    <Name>Navigation Root Node Item</Name>
+                    <Property name="swtichAccount">
+                      <ContentItem xsi:nil="true" type="SwitchAccountSection"/>
+                    </Property>
+                    <Property name="levelOneNode">
+                      <ContentItem xsi:nil="true" type="NavLevelOneV2"/>
+                    </Property>
+                    <Property name="htmlBlock">
+                      <ContentItem xsi:nil="true" type="HtmlBlockV2"/>
+                    </Property>
+                    <Property name="customPage">
+                      <ContentItem xsi:nil="true" type="CustomPageV2"/>
+                    </Property>
+                  </ContentItem>
+                </ContentItemList>
+              </Property>
+              <Property name="displayNamePrefix">
+                <String/>
+              </Property>
+              <Property name="displayNameSuffix">
+                <String/>
+              </Property>
+              <Property name="desktopHidden">
+                <Boolean>false</Boolean>
+              </Property>
+              <Property name="mobileHidden">
+                <Boolean>true</Boolean>
+              </Property>
+              <Property name="pageKey">
+                <String/>
+              </Property>
+            </ContentItem>
+            <ContentItem type="NavRootV2">
+              <TemplateId>navRootNodeV2</TemplateId>
+              <Name>FEEDBACK</Name>
+              <Property name="displayName">
+                <String>&lt;a style="font-weight: bold; color:black" href="javascript:void(0);" onclick="_sv.feedback.toggleFeedback()"&gt;  FEEDBACK &lt;/a&gt;</String>
+              </Property>
+              <Property name="url">
+                <String/>
+              </Property>
+              <Property name="openNewTabForEnterURL">
+                <Boolean>false</Boolean>
+              </Property>
+              <Property name="subNodeItems">
+                <ContentItemList type="NavRootItemV2"/>
+              </Property>
+              <Property name="displayNamePrefix">
+                <String/>
+              </Property>
+              <Property name="displayNameSuffix">
+                <String/>
+              </Property>
+              <Property name="desktopHidden">
+                <Boolean>false</Boolean>
+              </Property>
+              <Property name="mobileHidden">
+                <Boolean>true</Boolean>
+              </Property>
+              <Property name="pageKey">
+                <String/>
+              </Property>
+            </ContentItem>
+          </ContentItemList>
+        </Property>
+        <Property name="middleRowLeftSection">
+          <ContentItemList type="HeaderLogoSection">
+            <ContentItem type="HeaderLogoSection">
+              <TemplateId>headerLogoV2</TemplateId>
+              <Name>HeaderLogo</Name>
+              <Property name="logoLink">
+                <String>logo.png</String>
+              </Property>
+              <Property name="cssStyle">
+                <String/>
+              </Property>
+            </ContentItem>
+          </ContentItemList>
+        </Property>
+        <Property name="middleRowRightSection">
+          <ContentItemList type="SwitchAccountSection">
+            <ContentItem type="SwitchAccountSection">
+              <TemplateId>accountInfoV2</TemplateId>
+              <Name>Account Info</Name>
+            </ContentItem>
+          </ContentItemList>
+        </Property>
+        <Property name="bottomRow">
+          <ContentItemList type="TopCartridgesSection">
+            <ContentItem type="TopCartridgesSection">
+              <TemplateId>navMainV2</TemplateId>
+              <Name>Navigation Main</Name>
+              <Property name="navNodes">
+                <ContentItemList type="NavRootV2">
+                  <ContentItem type="NavRootV2">
+                    <TemplateId>navRootNodeV2</TemplateId>
+                    <Name>PRODUCTS</Name>
+                    <Property name="displayName">
+                      <String>PRODUCTS</String>
+                    </Property>
+                    <Property name="url">
+                      <String/>
+                    </Property>
+                    <Property name="openNewTabForEnterURL">
+                      <Boolean>false</Boolean>
+                    </Property>
+                    <Property name="subNodeItems">
+                      <ContentItemList type="NavRootItemV2">
+                        <ContentItem type="NavRootItemV2">
+                          <TemplateId>navRootNodeItemV2</TemplateId>
+                          <Name>Residential Roofing</Name>
+                          <Property name="swtichAccount">
+                            <ContentItem xsi:nil="true" type="SwitchAccountSection"/>
+                          </Property>
+                          <Property name="levelOneNode">
+                            <ContentItem type="NavLevelOneV2">
+                              <TemplateId>navLevelOneNodeV2</TemplateId>
+                              <Name>Navigation Level One Node</Name>
+                              <Property name="category">
+                                <ContentItem type="navCategoryLink">
+                                  <TemplateId>navCategoryLink</TemplateId>
+                                  <Name>Residential Roofing</Name>
+                                  <Property name="displayName">
+                                    <String>Residential Roofing</String>
+                                  </Property>
+                                  <Property name="imageLink">
+                                    <String/>
+                                  </Property>
+                                  <Property name="url">
+                                    <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                      <Property name="path"/>
+                                      <Property name="linkType">Navigation State</Property>
+                                      <Property name="queryString">N=2136009153</Property>
+                                    </Item>
+                                  </Property>
+                                  <Property name="openNewTabForEnterURL">
+                                    <Boolean>false</Boolean>
+                                  </Property>
+                                </ContentItem>
+                              </Property>
+                              <Property name="subNode">
+                                <ContentItem type="NavLevelTwoV2">
+                                  <TemplateId>navLevelTwoNodeV2</TemplateId>
+                                  <Name>Sub-Categries</Name>
+                                  <Property name="maxImgCount">
+                                    <String>4</String>
+                                  </Property>
+                                  <Property name="maxLinkCount">
+                                    <String>6</String>
+                                  </Property>
+                                  <Property name="rightBanner">
+                                    <ContentItem type="GlobalSection">
+                                      <TemplateId>contentBanner</TemplateId>
+                                      <Name>Banner</Name>
+                                      <Property name="htmlContent">
+                                        <String>&lt;div class="popular-brands" style="margin:0"&gt;
+	&lt;h3&gt;POPULAR BRANDS&lt;/h3&gt;
+	&lt;div&gt;
+              &lt;a href="/search/CertainTeed-Roofing+Residential-Roofing/_/N-1z13zakZzbq37l"&gt;
+		&lt;img src="/images/certainTeed.png" alt="" /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/br&gt;
+	&lt;div&gt;
+              &lt;a href="/search/TAMKO+Residential-Roofing/_/N-1z141u6Zzbq37l"&gt;
+		&lt;img src="/images/tamko.png" alt="" /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/br&gt;
+	&lt;div&gt;
+              &lt;a href="/search/GAF+Residential-Roofing/_/N-1z141ivZzbq37l"&gt;
+		&lt;img src="/images/gaf.png" alt="" /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</String>
+                                      </Property>
+                                    </ContentItem>
+                                  </Property>
+                                  <Property name="subNodes">
+                                    <ContentItemList type="navCategoryLink">
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Asphalt Shingles</Name>
+                                        <Property name="displayName">
+                                          <String>Asphalt Shingles</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/shingles_200x200.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009154</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Natural &amp; Synthetic Slate &amp; Shakes</Name>
+                                        <Property name="displayName">
+                                          <String>Slate &amp; Shakes</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/slate_200x200.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009206</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Steep Slope Metal Roofing</Name>
+                                        <Property name="displayName">
+                                          <String/>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/preview-full-MedalRoofing-2.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009276</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Residential Accessories</Name>
+                                        <Property name="displayName">
+                                          <String>Residential Accessories</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/ssraccessories_200x200.JPG</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009178</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Steep Slope Wood</Name>
+                                        <Property name="displayName">
+                                          <String/>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String/>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009337</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Trad Concrete / Clay Tile &amp; Derivatives</Name>
+                                        <Property name="displayName">
+                                          <String/>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String/>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136008811</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                    </ContentItemList>
+                                  </Property>
+                                </ContentItem>
+                              </Property>
+                            </ContentItem>
+                          </Property>
+                          <Property name="htmlBlock">
+                            <ContentItem xsi:nil="true" type="HtmlBlockV2"/>
+                          </Property>
+                          <Property name="customPage">
+                            <ContentItem xsi:nil="true" type="CustomPageV2"/>
+                          </Property>
+                        </ContentItem>
+                        <ContentItem type="NavRootItemV2">
+                          <TemplateId>navRootNodeItemV2</TemplateId>
+                          <Name>Commercial Roofing</Name>
+                          <Property name="swtichAccount">
+                            <ContentItem xsi:nil="true" type="SwitchAccountSection"/>
+                          </Property>
+                          <Property name="levelOneNode">
+                            <ContentItem type="NavLevelOneV2">
+                              <TemplateId>navLevelOneNodeV2</TemplateId>
+                              <Name>Navigation Level One Node</Name>
+                              <Property name="category">
+                                <ContentItem type="navCategoryLink">
+                                  <TemplateId>navCategoryLink</TemplateId>
+                                  <Name>Commercial Roofing</Name>
+                                  <Property name="displayName">
+                                    <String/>
+                                  </Property>
+                                  <Property name="imageLink">
+                                    <String/>
+                                  </Property>
+                                  <Property name="url">
+                                    <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                      <Property name="path"/>
+                                      <Property name="linkType">Navigation State</Property>
+                                      <Property name="queryString">N=2136009162</Property>
+                                    </Item>
+                                  </Property>
+                                  <Property name="openNewTabForEnterURL">
+                                    <Boolean>false</Boolean>
+                                  </Property>
+                                </ContentItem>
+                              </Property>
+                              <Property name="subNode">
+                                <ContentItem type="NavLevelTwoV2">
+                                  <TemplateId>navLevelTwoNodeV2</TemplateId>
+                                  <Name>Sub-Categories</Name>
+                                  <Property name="maxImgCount">
+                                    <String>4</String>
+                                  </Property>
+                                  <Property name="maxLinkCount">
+                                    <String>6</String>
+                                  </Property>
+                                  <Property name="rightBanner">
+                                    <ContentItem type="GlobalSection">
+                                      <TemplateId>contentBanner</TemplateId>
+                                      <Name>Banner</Name>
+                                      <Property name="htmlContent">
+                                        <String>&lt;div class="popular-brands" style="margin:0"&gt;
+	&lt;h3&gt;POPULAR BRANDS&lt;/h3&gt;
+	&lt;div&gt;
+		&lt;a href="/search/Carlisle-Syntec+Commercial-Roofing/_/N-1z13zcfZzbq37u"&gt;
+                       &lt;img style="height:40px" src="/images/CarlisleLogo.jpg" alt="Carlisle Logo"/&gt;   &lt;/a&gt;
+	&lt;/div&gt;
+&lt;/br&gt;
+	&lt;div&gt;
+		&lt;a href="/search/Firestone-Building-Materials+Commercial-Roofing/_/N-1z13sn0Zzbq37u"&gt;
+                     &lt;img style="height:40px" src="/images/FirestoneLogo.jpg" alt="Firestone Logo" /&gt;
+                    &lt;/a&gt;
+	&lt;/div&gt;
+&lt;/br&gt;
+	&lt;div&gt;
+		&lt;a href="/search/Versico+Commercial-Roofing/_/N-1z13z5oZzbq37u"&gt;
+&lt;img style="height:40px" src="/images/VersicoLogo.jpg" alt="Versico Logo"/&gt;
+                 &lt;/a&gt;	
+	&lt;/div&gt;
+&lt;/div&gt;</String>
+                                      </Property>
+                                    </ContentItem>
+                                  </Property>
+                                  <Property name="subNodes">
+                                    <ContentItemList type="navCategoryLink">
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>PVC</Name>
+                                        <Property name="displayName">
+                                          <String/>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/tpo_200x200.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009233</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>EPDM</Name>
+                                        <Property name="displayName">
+                                          <String/>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/epdm_200x200.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009216</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Commercial Insulation</Name>
+                                        <Property name="displayName">
+                                          <String/>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/lsr_insulation_200x200.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009163</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Commercial Accessories</Name>
+                                        <Property name="displayName">
+                                          <String/>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/preview-full-Commercial-Accessories-2.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136008796</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>TPO</Name>
+                                        <Property name="displayName">
+                                          <String/>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String/>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009239</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Low Slope Modified</Name>
+                                        <Property name="displayName">
+                                          <String/>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String/>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009222</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Asphalt And Pitch</Name>
+                                        <Property name="displayName">
+                                          <String>Asphalt &amp; Pitch</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String/>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009213</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Low Slope Metals</Name>
+                                        <Property name="displayName">
+                                          <String/>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String/>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136008800</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Built-Up Roofing</Name>
+                                        <Property name="displayName">
+                                          <String/>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String/>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009538</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                    </ContentItemList>
+                                  </Property>
+                                </ContentItem>
+                              </Property>
+                            </ContentItem>
+                          </Property>
+                          <Property name="htmlBlock">
+                            <ContentItem xsi:nil="true" type="HtmlBlockV2"/>
+                          </Property>
+                          <Property name="customPage">
+                            <ContentItem xsi:nil="true" type="CustomPageV2"/>
+                          </Property>
+                        </ContentItem>
+                        <ContentItem type="NavRootItemV2">
+                          <TemplateId>navRootNodeItemV2</TemplateId>
+                          <Name>Siding &amp; Gutters</Name>
+                          <Property name="swtichAccount">
+                            <ContentItem xsi:nil="true" type="SwitchAccountSection"/>
+                          </Property>
+                          <Property name="levelOneNode">
+                            <ContentItem type="NavLevelOneV2">
+                              <TemplateId>navLevelOneNodeV2</TemplateId>
+                              <Name>Navigation Level One Node</Name>
+                              <Property name="category">
+                                <ContentItem type="navCategoryLink">
+                                  <TemplateId>navCategoryLink</TemplateId>
+                                  <Name>Siding &amp; Gutters</Name>
+                                  <Property name="displayName">
+                                    <String>Siding &amp; Gutters</String>
+                                  </Property>
+                                  <Property name="imageLink">
+                                    <String/>
+                                  </Property>
+                                  <Property name="url">
+                                    <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                      <Property name="path"/>
+                                      <Property name="linkType">Navigation State</Property>
+                                      <Property name="queryString">N=2136009010</Property>
+                                    </Item>
+                                  </Property>
+                                  <Property name="openNewTabForEnterURL">
+                                    <Boolean>false</Boolean>
+                                  </Property>
+                                </ContentItem>
+                              </Property>
+                              <Property name="subNode">
+                                <ContentItem type="NavLevelTwoV2">
+                                  <TemplateId>navLevelTwoNodeV2</TemplateId>
+                                  <Name>Navigation Level Two Node</Name>
+                                  <Property name="maxImgCount">
+                                    <String>4</String>
+                                  </Property>
+                                  <Property name="maxLinkCount">
+                                    <String>6</String>
+                                  </Property>
+                                  <Property name="rightBanner">
+                                    <ContentItem type="GlobalSection">
+                                      <TemplateId>contentBanner</TemplateId>
+                                      <Name>Banner</Name>
+                                      <Property name="htmlContent">
+                                        <String>&lt;div class="popular-brands"  style="margin:0"&gt;
+	&lt;h3&gt;POPULAR BRANDS&lt;/h3&gt;
+	&lt;div&gt;
+              &lt;a href="/search/Variform-By-PlyGem+Siding/_/N-1z13se2Zzbq33m?_requestid=16833"&gt;
+		&lt;img src="/images/Variform_540x540.jpeg" alt="" /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/br&gt;
+	&lt;div&gt;
+              &lt;a href="/search/Mastic+Siding/_/N-1z13thaZzbq33m?_requestid=37025"&gt;
+		&lt;img src="/images/Mastic_540x540.jpeg" alt="" /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/br&gt;
+&lt;div&gt;
+              &lt;a href="/search/CertainTeed-Vinyl-Building-Products+Siding/_/N-1z13za6Zzbq33m?_requestid=37025"&gt;
+		&lt;img src="/images/CertainTeedVinyl_540x540.jpeg" alt="" /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;</String>
+                                      </Property>
+                                    </ContentItem>
+                                  </Property>
+                                  <Property name="subNodes">
+                                    <ContentItemList type="navCategoryLink">
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Vinyl Siding</Name>
+                                        <Property name="displayName">
+                                          <String>Vinyl Siding</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/VinylSiding.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009103</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Aluminum Siding</Name>
+                                        <Property name="displayName">
+                                          <String>Aluminum Siding</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/vinyl_siding_200x200.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009011</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Fiber Cement Siding</Name>
+                                        <Property name="displayName">
+                                          <String>Fiber Cement Siding</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/fibercement_200x200.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009057</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Gutters And Accessories</Name>
+                                        <Property name="displayName">
+                                          <String/>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/gutters_200x200.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009397</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Steel Siding</Name>
+                                        <Property name="displayName">
+                                          <String>Steel Siding</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/steelsiding.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009080</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Composite Siding</Name>
+                                        <Property name="displayName">
+                                          <String>Composite Siding</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String/>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009034</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Wood Siding</Name>
+                                        <Property name="displayName">
+                                          <String>Wood Siding</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String/>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009126</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Stone Veneer</Name>
+                                        <Property name="displayName">
+                                          <String/>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String/>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009254</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Exterior Accessories</Name>
+                                        <Property name="displayName">
+                                          <String/>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String/>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009574</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Exterior Wall Systems Stucco EIFS Plastr</Name>
+                                        <Property name="displayName">
+                                          <String/>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String/>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009355</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                    </ContentItemList>
+                                  </Property>
+                                </ContentItem>
+                              </Property>
+                            </ContentItem>
+                          </Property>
+                          <Property name="htmlBlock">
+                            <ContentItem xsi:nil="true" type="HtmlBlockV2"/>
+                          </Property>
+                          <Property name="customPage">
+                            <ContentItem xsi:nil="true" type="CustomPageV2"/>
+                          </Property>
+                        </ContentItem>
+                        <ContentItem type="NavRootItemV2">
+                          <TemplateId>navRootNodeItemV2</TemplateId>
+                          <Name>Building Insulation</Name>
+                          <Property name="swtichAccount">
+                            <ContentItem xsi:nil="true" type="SwitchAccountSection"/>
+                          </Property>
+                          <Property name="levelOneNode">
+                            <ContentItem type="NavLevelOneV2">
+                              <TemplateId>navLevelOneNodeV2</TemplateId>
+                              <Name>Navigation Level One Node</Name>
+                              <Property name="category">
+                                <ContentItem type="navCategoryLink">
+                                  <TemplateId>navCategoryLink</TemplateId>
+                                  <Name>Building Insulation</Name>
+                                  <Property name="displayName">
+                                    <String/>
+                                  </Property>
+                                  <Property name="imageLink">
+                                    <String/>
+                                  </Property>
+                                  <Property name="url">
+                                    <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                      <Property name="path"/>
+                                      <Property name="linkType">Navigation State</Property>
+                                      <Property name="queryString">N=2136008974</Property>
+                                    </Item>
+                                  </Property>
+                                  <Property name="openNewTabForEnterURL">
+                                    <Boolean>false</Boolean>
+                                  </Property>
+                                </ContentItem>
+                              </Property>
+                              <Property name="subNode">
+                                <ContentItem type="NavLevelTwoV2">
+                                  <TemplateId>navLevelTwoNodeV2</TemplateId>
+                                  <Name>Navigation Level Two Node</Name>
+                                  <Property name="maxImgCount">
+                                    <String>4</String>
+                                  </Property>
+                                  <Property name="maxLinkCount">
+                                    <String>6</String>
+                                  </Property>
+                                  <Property name="rightBanner">
+                                    <ContentItem type="GlobalSection">
+                                      <TemplateId>contentBanner</TemplateId>
+                                      <Name>Banner</Name>
+                                      <Property name="htmlContent">
+                                        <String>&lt;div class="popular-brands" style="margin:0"&gt;
+	&lt;h3&gt;POPULAR BRANDS&lt;/h3&gt;
+	&lt;div&gt;
+		&lt;a href="/search/Owens-Corning+Building-Insulation/_/N-1z141u8Zzbq32m"&gt;&lt;img src="/images/OwensCorningMainNav.jpg" alt="" /&gt;&lt;/a&gt;
+	&lt;/div&gt;
+
+&lt;/br&gt; 
+
+&lt;div&gt;
+		&lt;a href="/search/Certainteed-Insulation+Building-Insulation/_/N-1z13ytjZzbq32m"&gt;&lt;img src="/images/Certainteed-Insulation.jpg" alt="" /&gt;&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</String>
+                                      </Property>
+                                    </ContentItem>
+                                  </Property>
+                                  <Property name="subNodes">
+                                    <ContentItemList type="navCategoryLink">
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Fiberglass Insulation</Name>
+                                        <Property name="displayName">
+                                          <String>Fiberglass Insulation</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/Fiberglass Insulation.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136008989</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Cellulose Insulation</Name>
+                                        <Property name="displayName">
+                                          <String>Cellulose Insulation</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/cellulose.jpeg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136008984</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Fiberglass Blowing Wool</Name>
+                                        <Property name="displayName">
+                                          <String>Fiberglass Blowing Wool</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/insulation_200x200.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136008987</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Spray Foam Insulation</Name>
+                                        <Property name="displayName">
+                                          <String>Spray Foam Insulation</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/Spray Insulation.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009007</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Foam Board</Name>
+                                        <Property name="displayName">
+                                          <String>Foam Board</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String/>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136008995</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Radiant Barrier</Name>
+                                        <Property name="displayName">
+                                          <String>Radiant Barrier</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String/>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009006</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Mineral Wool</Name>
+                                        <Property name="displayName">
+                                          <String>Mineral Wool</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String/>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009002</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Metal Building Insulation</Name>
+                                        <Property name="displayName">
+                                          <String>Metal Building Insulation</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String/>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009000</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Accessories</Name>
+                                        <Property name="displayName">
+                                          <String>Accessories</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String/>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136008975</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                    </ContentItemList>
+                                  </Property>
+                                </ContentItem>
+                              </Property>
+                            </ContentItem>
+                          </Property>
+                          <Property name="htmlBlock">
+                            <ContentItem xsi:nil="true" type="HtmlBlockV2"/>
+                          </Property>
+                          <Property name="customPage">
+                            <ContentItem xsi:nil="true" type="CustomPageV2"/>
+                          </Property>
+                        </ContentItem>
+                        <ContentItem type="NavRootItemV2">
+                          <TemplateId>navRootNodeItemV2</TemplateId>
+                          <Name>Building Components</Name>
+                          <Property name="swtichAccount">
+                            <ContentItem xsi:nil="true" type="SwitchAccountSection"/>
+                          </Property>
+                          <Property name="levelOneNode">
+                            <ContentItem type="NavLevelOneV2">
+                              <TemplateId>navLevelOneNodeV2</TemplateId>
+                              <Name>Navigation Level One Node</Name>
+                              <Property name="category">
+                                <ContentItem type="navCategoryLink">
+                                  <TemplateId>navCategoryLink</TemplateId>
+                                  <Name>Building Components</Name>
+                                  <Property name="displayName">
+                                    <String/>
+                                  </Property>
+                                  <Property name="imageLink">
+                                    <String/>
+                                  </Property>
+                                  <Property name="url">
+                                    <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                      <Property name="path"/>
+                                      <Property name="linkType">Navigation State</Property>
+                                      <Property name="queryString">N=2136009438</Property>
+                                    </Item>
+                                  </Property>
+                                  <Property name="openNewTabForEnterURL">
+                                    <Boolean>false</Boolean>
+                                  </Property>
+                                </ContentItem>
+                              </Property>
+                              <Property name="subNode">
+                                <ContentItem type="NavLevelTwoV2">
+                                  <TemplateId>navLevelTwoNodeV2</TemplateId>
+                                  <Name>Navigation Level Two Node</Name>
+                                  <Property name="maxImgCount">
+                                    <String>4</String>
+                                  </Property>
+                                  <Property name="maxLinkCount">
+                                    <String>6</String>
+                                  </Property>
+                                  <Property name="rightBanner">
+                                    <ContentItem type="GlobalSection">
+                                      <TemplateId>contentBanner</TemplateId>
+                                      <Name>Banner</Name>
+                                      <Property name="htmlContent">
+                                        <String>&lt;div class="popular-brands" style="margin:0"&gt;
+	&lt;h3&gt;POPULAR BRANDS&lt;/h3&gt;
+	&lt;div&gt;
+		&lt;a href="/search/Johns-Manville+Building-Insulation/_/N-1z13zilZzbq2xe?_requestid=158"&gt;
+                        &lt;img src="/images/JohnsManville_187x100.jpg" alt="Johns Manville Logo"/&gt;
+&lt;/a&gt;	
+	&lt;/div&gt;
+&lt;/br&gt;
+	&lt;div&gt;
+		&lt;a href="/search/Owens-Corning+Building-Insulation/_/N-1z141u8Zzbq2xe"&gt;&lt;img src="/images/OwensCorningMainNav.jpg" alt="" /&gt;&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</String>
+                                      </Property>
+                                    </ContentItem>
+                                  </Property>
+                                  <Property name="subNodes">
+                                    <ContentItemList type="navCategoryLink">
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Lumber</Name>
+                                        <Property name="displayName">
+                                          <String>Lumber</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/preview-full-Lumber.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136008821</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Tools &amp; Equipment</Name>
+                                        <Property name="displayName">
+                                          <String/>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/buildinginsul_tools_200x200.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136009439</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>HVAC</Name>
+                                        <Property name="displayName">
+                                          <String>HVAC</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/preview-full-HVAC.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136008789</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>true</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Interior Building Components</Name>
+                                        <Property name="displayName">
+                                          <String>Interior Building Components</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/preview-full-InteriorBuildingComp.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136008790</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>true</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Exterior Building Components</Name>
+                                        <Property name="displayName">
+                                          <String>Exterior Building Components</String>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String/>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136008788</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>true</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                    </ContentItemList>
+                                  </Property>
+                                </ContentItem>
+                              </Property>
+                            </ContentItem>
+                          </Property>
+                          <Property name="htmlBlock">
+                            <ContentItem xsi:nil="true" type="HtmlBlockV2"/>
+                          </Property>
+                          <Property name="customPage">
+                            <ContentItem xsi:nil="true" type="CustomPageV2"/>
+                          </Property>
+                        </ContentItem>
+                        <ContentItem type="NavRootItemV2">
+                          <TemplateId>navRootNodeItemV2</TemplateId>
+                          <Name>Waterproofing</Name>
+                          <Property name="swtichAccount">
+                            <ContentItem xsi:nil="true" type="SwitchAccountSection"/>
+                          </Property>
+                          <Property name="levelOneNode">
+                            <ContentItem type="NavLevelOneV2">
+                              <TemplateId>navLevelOneNodeV2</TemplateId>
+                              <Name>Navigation Level One Node</Name>
+                              <Property name="category">
+                                <ContentItem type="navCategoryLink">
+                                  <TemplateId>navCategoryLink</TemplateId>
+                                  <Name>Waterproofing</Name>
+                                  <Property name="displayName">
+                                    <String/>
+                                  </Property>
+                                  <Property name="imageLink">
+                                    <String>images/waterproofing_200x200.jpg</String>
+                                  </Property>
+                                  <Property name="url">
+                                    <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                      <Property name="path"/>
+                                      <Property name="linkType">Navigation State</Property>
+                                      <Property name="queryString">N=2136008827</Property>
+                                    </Item>
+                                  </Property>
+                                  <Property name="openNewTabForEnterURL">
+                                    <Boolean>false</Boolean>
+                                  </Property>
+                                </ContentItem>
+                              </Property>
+                              <Property name="subNode">
+                                <ContentItem type="NavLevelTwoV2">
+                                  <TemplateId>navLevelTwoNodeV2</TemplateId>
+                                  <Name>Navigation Level Two Node</Name>
+                                  <Property name="maxImgCount">
+                                    <String>4</String>
+                                  </Property>
+                                  <Property name="maxLinkCount">
+                                    <String>6</String>
+                                  </Property>
+                                  <Property name="rightBanner">
+                                    <ContentItem type="GlobalSection">
+                                      <TemplateId>contentBanner</TemplateId>
+                                      <Name>Banner</Name>
+                                      <Property name="htmlContent">
+                                        <String>&lt;div class="popular-brands" style="margin:0"&gt;
+	&lt;h3&gt;POPULAR BRANDS&lt;/h3&gt;
+	&lt;div&gt;
+              &lt;a href="/search/W-R-Grace+Waterproofing/_/N-1z13zcsZzbq2yj"&gt;
+		&lt;img src="/images/grace_187x100.jpg" alt="" /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/br&gt;
+	&lt;div&gt;
+              &lt;a href="/search/APOC/_/N-1z13x5m"&gt;
+		&lt;img src="/images/apoc_187x100.jpg" alt="" /&gt;
+	&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/br&gt;
+	&lt;div&gt;
+              &lt;a href="#"&gt;
+		&lt;img src="/images/certainTeed.png" alt="" /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</String>
+                                      </Property>
+                                    </ContentItem>
+                                  </Property>
+                                  <Property name="subNodes">
+                                    <ContentItemList type="navCategoryLink">
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Waterproofing</Name>
+                                        <Property name="displayName">
+                                          <String/>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/waterproofing_200x200.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136008827</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                    </ContentItemList>
+                                  </Property>
+                                </ContentItem>
+                              </Property>
+                            </ContentItem>
+                          </Property>
+                          <Property name="htmlBlock">
+                            <ContentItem xsi:nil="true" type="HtmlBlockV2"/>
+                          </Property>
+                          <Property name="customPage">
+                            <ContentItem xsi:nil="true" type="CustomPageV2"/>
+                          </Property>
+                        </ContentItem>
+                        <ContentItem type="NavRootItemV2">
+                          <TemplateId>navRootNodeItemV2</TemplateId>
+                          <Name>Skylights</Name>
+                          <Property name="swtichAccount">
+                            <ContentItem xsi:nil="true" type="SwitchAccountSection"/>
+                          </Property>
+                          <Property name="levelOneNode">
+                            <ContentItem type="NavLevelOneV2">
+                              <TemplateId>navLevelOneNodeV2</TemplateId>
+                              <Name>Navigation Level One Node</Name>
+                              <Property name="category">
+                                <ContentItem type="navCategoryLink">
+                                  <TemplateId>navCategoryLink</TemplateId>
+                                  <Name>Skylights</Name>
+                                  <Property name="displayName">
+                                    <String/>
+                                  </Property>
+                                  <Property name="imageLink">
+                                    <String>images/windows_200x200.jpg</String>
+                                  </Property>
+                                  <Property name="url">
+                                    <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                      <Property name="path"/>
+                                      <Property name="linkType">Navigation State</Property>
+                                      <Property name="queryString">N=2136008831</Property>
+                                    </Item>
+                                  </Property>
+                                  <Property name="openNewTabForEnterURL">
+                                    <Boolean>false</Boolean>
+                                  </Property>
+                                </ContentItem>
+                              </Property>
+                              <Property name="subNode">
+                                <ContentItem type="NavLevelTwoV2">
+                                  <TemplateId>navLevelTwoNodeV2</TemplateId>
+                                  <Name>Navigation Level Two Node</Name>
+                                  <Property name="maxImgCount">
+                                    <String>4</String>
+                                  </Property>
+                                  <Property name="maxLinkCount">
+                                    <String>6</String>
+                                  </Property>
+                                  <Property name="rightBanner">
+                                    <ContentItem type="GlobalSection">
+                                      <TemplateId>contentBanner</TemplateId>
+                                      <Name>Banner</Name>
+                                      <Property name="htmlContent">
+                                        <String>&lt;div class="popular-brands"  style="margin:0"&gt;
+	&lt;h3&gt;POPULAR BRANDS&lt;/h3&gt;
+	&lt;div&gt;
+              &lt;a href="/search/Simonton+Windows-Skylights/_/N-1z13z6lZzbq2yn"&gt;
+		&lt;img src="/images/simonton_187x100.jpg" alt="" /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/br&gt;
+	&lt;div&gt;
+              &lt;a href="/search/Velux+Windows-Skylights/_/N-1z13yxfZzbq2yn"&gt;
+		&lt;img src="/images/velux_187x100.jpg" alt="" /&gt;
+		&lt;/a&gt;
+	&lt;/div&gt;</String>
+                                      </Property>
+                                    </ContentItem>
+                                  </Property>
+                                  <Property name="subNodes">
+                                    <ContentItemList type="navCategoryLink">
+                                      <ContentItem type="navCategoryLink">
+                                        <TemplateId>navCategoryLink</TemplateId>
+                                        <Name>Windows &amp; Skylights</Name>
+                                        <Property name="displayName">
+                                          <String/>
+                                        </Property>
+                                        <Property name="imageLink">
+                                          <String>/images/skylight.jpg</String>
+                                        </Property>
+                                        <Property name="url">
+                                          <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                            <Property name="path"/>
+                                            <Property name="linkType">Navigation State</Property>
+                                            <Property name="queryString">N=2136008831</Property>
+                                          </Item>
+                                        </Property>
+                                        <Property name="openNewTabForEnterURL">
+                                          <Boolean>false</Boolean>
+                                        </Property>
+                                      </ContentItem>
+                                    </ContentItemList>
+                                  </Property>
+                                </ContentItem>
+                              </Property>
+                            </ContentItem>
+                          </Property>
+                          <Property name="htmlBlock">
+                            <ContentItem xsi:nil="true" type="HtmlBlockV2"/>
+                          </Property>
+                          <Property name="customPage">
+                            <ContentItem xsi:nil="true" type="CustomPageV2"/>
+                          </Property>
+                        </ContentItem>
+                      </ContentItemList>
+                    </Property>
+                    <Property name="displayNamePrefix">
+                      <String>&lt;i class="fa fa-bars" aria-hidden="true"&gt;&lt;/i&gt;</String>
+                    </Property>
+                    <Property name="displayNameSuffix">
+                      <String/>
+                    </Property>
+                    <Property name="desktopHidden">
+                      <Boolean>false</Boolean>
+                    </Property>
+                    <Property name="mobileHidden">
+                      <Boolean>false</Boolean>
+                    </Property>
+                    <Property name="pageKey">
+                      <String>productsMenu</String>
+                    </Property>
+                  </ContentItem>
+                  <ContentItem type="NavRootV2">
+                    <TemplateId>navRootNodeV2</TemplateId>
+                    <Name>TEMPLATES</Name>
+                    <Property name="displayName">
+                      <String>TEMPLATES</String>
+                    </Property>
+                    <Property name="url">
+                      <String>/myAccount/template?activeTab=template</String>
+                    </Property>
+                    <Property name="openNewTabForEnterURL">
+                      <Boolean>false</Boolean>
+                    </Property>
+                    <Property name="subNodeItems">
+                      <ContentItemList type="NavRootItemV2"/>
+                    </Property>
+                    <Property name="displayNamePrefix">
+                      <String/>
+                    </Property>
+                    <Property name="displayNameSuffix">
+                      <String/>
+                    </Property>
+                    <Property name="desktopHidden">
+                      <Boolean>false</Boolean>
+                    </Property>
+                    <Property name="mobileHidden">
+                      <Boolean>false</Boolean>
+                    </Property>
+                    <Property name="pageKey">
+                      <String/>
+                    </Property>
+                  </ContentItem>
+                  <ContentItem type="NavRootV2">
+                    <TemplateId>navRootNodeV2</TemplateId>
+                    <Name>QUOTES</Name>
+                    <Property name="displayName">
+                      <String>QUOTES</String>
+                    </Property>
+                    <Property name="url">
+                      <String>/myAccount/quote?activeTab=quote</String>
+                    </Property>
+                    <Property name="openNewTabForEnterURL">
+                      <Boolean>false</Boolean>
+                    </Property>
+                    <Property name="subNodeItems">
+                      <ContentItemList type="NavRootItemV2"/>
+                    </Property>
+                    <Property name="displayNamePrefix">
+                      <String/>
+                    </Property>
+                    <Property name="displayNameSuffix">
+                      <String/>
+                    </Property>
+                    <Property name="desktopHidden">
+                      <Boolean>false</Boolean>
+                    </Property>
+                    <Property name="mobileHidden">
+                      <Boolean>false</Boolean>
+                    </Property>
+                    <Property name="pageKey">
+                      <String/>
+                    </Property>
+                  </ContentItem>
+                  <ContentItem type="NavRootV2">
+                    <TemplateId>navRootNodeV2</TemplateId>
+                    <Name>PRO+ TOOLs</Name>
+                    <Property name="displayName">
+                      <String>&lt;font color="#025396"&gt;PRO+ TOOLS &lt;/font&gt;</String>
+                    </Property>
+                    <Property name="url">
+                      <String/>
+                    </Property>
+                    <Property name="openNewTabForEnterURL">
+                      <Boolean>false</Boolean>
+                    </Property>
+                    <Property name="subNodeItems">
+                      <ContentItemList type="NavRootItemV2">
+                        <ContentItem type="NavRootItemV2">
+                          <TemplateId>navRootNodeItemV2</TemplateId>
+                          <Name>PRO+ TOOLS</Name>
+                          <Property name="swtichAccount">
+                            <ContentItem xsi:nil="true" type="SwitchAccountSection"/>
+                          </Property>
+                          <Property name="levelOneNode">
+                            <ContentItem xsi:nil="true" type="NavLevelOneV2"/>
+                          </Property>
+                          <Property name="htmlBlock">
+                            <ContentItem xsi:nil="true" type="HtmlBlockV2"/>
+                          </Property>
+                          <Property name="customPage">
+                            <ContentItem xsi:nil="true" type="CustomPageV2"/>
+                          </Property>
+                        </ContentItem>
+                        <ContentItem type="NavRootItemV2">
+                          <TemplateId>navRootNodeItemV2</TemplateId>
+                          <Name>Rebate Landing Page</Name>
+                          <Property name="swtichAccount">
+                            <ContentItem xsi:nil="true" type="SwitchAccountSection"/>
+                          </Property>
+                          <Property name="levelOneNode">
+                            <ContentItem type="NavLevelOneV2">
+                              <TemplateId>navLevelOneNodeV2</TemplateId>
+                              <Name>Navigation Level One Node</Name>
+                              <Property name="category">
+                                <ContentItem type="navCategoryLink">
+                                  <TemplateId>navCategoryLink</TemplateId>
+                                  <Name>Promotion Tracker</Name>
+                                  <Property name="displayName">
+                                    <String>Promotion Tracker</String>
+                                  </Property>
+                                  <Property name="imageLink">
+                                    <String/>
+                                  </Property>
+                                  <Property name="url">
+                                    <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                      <Property name="path">/pages/storeSiteUS/rebate/landing</Property>
+                                      <Property name="linkType">Navigation State</Property>
+                                      <Property name="queryString"/>
+                                    </Item>
+                                  </Property>
+                                  <Property name="openNewTabForEnterURL">
+                                    <Boolean>false</Boolean>
+                                  </Property>
+                                </ContentItem>
+                              </Property>
+                              <Property name="subNode">
+                                <ContentItem type="NavLevelTwoV2">
+                                  <TemplateId>navLevelTwoNodeV2</TemplateId>
+                                  <Name>Navigation Level Two Node</Name>
+                                  <Property name="maxImgCount">
+                                    <String>4</String>
+                                  </Property>
+                                  <Property name="maxLinkCount">
+                                    <String>6</String>
+                                  </Property>
+                                  <Property name="rightBanner">
+                                    <ContentItem xsi:nil="true" type="GlobalSection"/>
+                                  </Property>
+                                  <Property name="subNodes">
+                                    <ContentItemList type="navCategoryLink"/>
+                                  </Property>
+                                </ContentItem>
+                              </Property>
+                            </ContentItem>
+                          </Property>
+                          <Property name="htmlBlock">
+                            <ContentItem xsi:nil="true" type="HtmlBlockV2"/>
+                          </Property>
+                          <Property name="customPage">
+                            <ContentItem xsi:nil="true" type="CustomPageV2"/>
+                          </Property>
+                        </ContentItem>
+                        <ContentItem type="NavRootItemV2">
+                          <TemplateId>navRootNodeItemV2</TemplateId>
+                          <Name>Online Bill Pay</Name>
+                          <Property name="swtichAccount">
+                            <ContentItem xsi:nil="true" type="SwitchAccountSection"/>
+                          </Property>
+                          <Property name="levelOneNode">
+                            <ContentItem type="NavLevelOneV2">
+                              <TemplateId>navLevelOneNodeV2</TemplateId>
+                              <Name>Navigation Level One Node</Name>
+                              <Property name="category">
+                                <ContentItem type="navCategoryLink">
+                                  <TemplateId>navCategoryLink</TemplateId>
+                                  <Name>Online Bill Pay</Name>
+                                  <Property name="displayName">
+                                    <String>Online Bill Pay</String>
+                                  </Property>
+                                  <Property name="imageLink">
+                                    <String/>
+                                  </Property>
+                                  <Property name="url">
+                                    <Item class="com.endeca.infront.cartridge.model.LinkBuilder" xmlns="http://endeca.com/schema/xavia/2010">
+                                      <Property name="path">https://secure.billtrust.com/beaconroofingsupply/ig/signin</Property>
+                                      <Property name="linkType">Global</Property>
+                                      <Property name="queryString"/>
+                                    </Item>
+                                  </Property>
+                                  <Property name="openNewTabForEnterURL">
+                                    <Boolean>true</Boolean>
+                                  </Property>
+                                </ContentItem>
+                              </Property>
+                              <Property name="subNode">
+                                <ContentItem xsi:nil="true" type="NavLevelTwoV2"/>
+                              </Property>
+                            </ContentItem>
+                          </Property>
+                          <Property name="htmlBlock">
+                            <ContentItem xsi:nil="true" type="HtmlBlockV2"/>
+                          </Property>
+                          <Property name="customPage">
+                            <ContentItem xsi:nil="true" type="CustomPageV2"/>
+                          </Property>
+                        </ContentItem>
+                      </ContentItemList>
+                    </Property>
+                    <Property name="displayNamePrefix">
+                      <String/>
+                    </Property>
+                    <Property name="displayNameSuffix">
+                      <String>&lt;i class="fa fa-caret-down" aria-hidden="true"&gt;&lt;/i&gt;</String>
+                    </Property>
+                    <Property name="desktopHidden">
+                      <Boolean>false</Boolean>
+                    </Property>
+                    <Property name="mobileHidden">
+                      <Boolean>false</Boolean>
+                    </Property>
+                    <Property name="pageKey">
+                      <String/>
+                    </Property>
+                  </ContentItem>
+                </ContentItemList>
+              </Property>
+            </ContentItem>
+            <ContentItem type="TopCartridgesSection">
+              <TemplateId>searchBoxV2</TemplateId>
+              <Name>Search Box</Name>
+              <Property name="matchMode">
+                <String>all</String>
+              </Property>
+              <Property name="autoSuggestEnabled">
+                <Boolean>true</Boolean>
+              </Property>
+              <Property name="minAutoSuggestInputLength">
+                <String>3</String>
+              </Property>
+            </ContentItem>
+            <ContentItem type="TopCartridgesSection">
+              <TemplateId>cartMiniV2</TemplateId>
+              <Name>Mini Cart</Name>
+            </ContentItem>
+          </ContentItemList>
+        </Property>
+      </ContentItem>
+    </ContentItemList>
+  </Property>
+</ContentItem>

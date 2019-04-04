@@ -1,0 +1,564 @@
+<ul class="list-unstyled accordion-nav">
+	<li>
+		<a href="javascript:;" action-model-toggle data-target=".headerV3-model">
+			<i class="icon--default icon--menu" aria-hidden="true"></i>
+		</a>
+		<div class="headerV3-model" style="display: none;">
+			<a href="javascript:;" class="close-menu" action-model-close data-target=".headerV3-model">
+				<i class="fa fa-times"></i>
+			</a>
+			<div class="menu-list">
+				<h2>SHOP BY CATEGORY</h2>
+				<ul class="list-unstyled" id="accordion">
+					<li class="panel">
+						<a href="javascript:;">Category1</a>
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+						   aria-expanded="false" aria-controls="collapseOne"></a>
+						<ul class="list-unstyled collapse list-group" id="collapseOne">
+							<li class="list-group-item">
+								<a href="javascript:;">Sub-category1</a>
+							</li>
+							<li class="list-group-item">
+								<a href="javascript:;">Sub-category2</a>
+							</li>
+						</ul>
+					</li>
+					<li class="panel">
+						<a href="javascript:;">Category2</a>
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+						   aria-expanded="false" aria-controls="collapseTwo"></a>
+						<ul class="list-unstyled collapse list-group" id="collapseTwo">
+							<li class="list-group-item">
+								<a href="javascript:;">Sub-category1</a>
+							</li>
+							<li class="list-group-item">
+								<a href="javascript:;">Sub-category2</a>
+							</li>
+						</ul>
+					</li>
+					<li class="panel">
+						<a href="javascript:;">Category3</a>
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+						   aria-expanded="false" aria-controls="collapseThree"></a>
+						<ul class="list-unstyled collapse list-group" id="collapseThree">
+							<li class="list-group-item">
+								<a href="javascript:;">Sub-category1</a>
+							</li>
+							<li class="list-group-item">
+								<a href="javascript:;">Sub-category2</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<h2 class="border">ACCOUNT &amp; FEATURES</h2>
+				<ul class="list-unstyled" id="accordion-account">
+					<li class="panel">
+						<a href="javascript:;">My Account</a>
+						<a data-toggle="collapse" data-parent="#accordion-account"
+						   href="#collapseMyAccount" aria-expanded="false"
+						   aria-controls="collapseMyAccount"></a>
+						<ul class="list-unstyled collapse list-group" id="collapseMyAccount">
+							<li class="list-group-item">
+								<select class="form-control js-exclude">
+									<option>Switch Accounts</option>
+								</select>
+							</li>
+							<li class="list-group-item">
+								<a href="javascript:;">Address Book</a>
+							</li>
+							<li class="list-group-item">
+								<a href="javascript:;">Personal Profile</a>
+							</li>
+							<li class="list-group-item">
+								<a href="javascript:;">Change Password</a>
+							</li>
+							<li class="list-group-item">
+								<a href="javascript:;">Saved Orders</a>
+							</li>
+							<li class="list-group-item">
+								<a href="javascript:;">User Permission</a>
+							</li>
+						</ul>
+					</li>
+					<li class="panel">
+						<a href="javascript:;">My Branch</a>
+						<a data-toggle="collapse" data-parent="#accordion-account" href="#collapseMyBranch"
+						   aria-expanded="false" aria-controls="collapseMyBranch"></a>
+						<ul class="list-unstyled collapse list-group branch-info" id="collapseMyBranch">
+							<li class="list-group-item">Branch Information
+								<i class="fa fa fa-arrow-right" aria-hidden="true"></i>
+							</li>
+							<li class="border list-group-item">
+								<strong>AUSTIN BRANCH-RSG(621)</strong>
+							</li>
+							<li class="list-group-item">
+								<p>ROOFING SUPPLY GROUP</p>
+								<p>9=8319 B KANAR BLVD, AUSTIN, TX 78753-5920</p>
+								<p>(512)834-4347</p>
+							</li>
+						</ul>
+					</li>
+					<li class="panel">
+						<a href="javascript:;">Pro+ Tools</a>
+						<a data-toggle="collapse" data-parent="#accordion-account" href="#collapseTools"
+						   aria-expanded="false" aria-controls="collapseTools"></a>
+						<ul class="list-unstyled collapse list-group" id="collapseTools">
+							<li class="list-group-item">
+								<a href="javascript:;">Promotion Tracker</a>
+							</li>
+							<li class="list-group-item">
+								<a href="javascript:;">Online Bill Pay</a>
+							</li>
+							<li class="list-group-item">
+								<a href="javascript:;">Perfect Order</a>
+							</li>
+							<li class="list-group-item">
+								<a href="javascript:;">Quotes</a>
+							</li>
+							<li class="list-group-item">
+								<a href="javascript:;">Storm+</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="list-unstyled border">
+					<li class="panel">
+						<a href="javascript:;">Log out</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</li>
+	<li>
+		<a href="javascript:;">
+			<i class="icon--default icon--list--blue"></i>
+		</a>
+	</li>
+	<li>
+		<a href="javascript:;">
+			<i class="icon--default icon--check--blue"></i>
+		</a>
+	</li>
+	<li>
+		<div class="dropdown dropdown-miniCartCon">
+			<a href="javascript:;" data-toggle="dropdown" aria-haspopup="true"
+			   aria-expanded="false">
+				<i class="icon--default icon--cart--blue"></i>
+			</a>
+			<div class="dropdown-menu dropdown-miniCart">
+				<p class="text-center">No Product Item in cart.</p>
+				<div class="cart-body ">
+					<table>
+						<tbody>
+							<tr class="miniCartProduct">
+								<td class="miniCartProductThumb">
+									<div>
+										<a href="/productDetail/C-268414?skuId=260147&amp;Color=Grey">
+											<div class="beaconImageTagContainer">
+												<img src="/images/large/260147_default_thumb.jpg" alt="img"
+													 class="img-responsive BCImageResult1 mCS_img_loaded"
+													 onerror="this.src='/images/default_not_found.jpg'"
+													 style="transform: none;">
+											</div>
+										</a>
+									</div>
+								</td>
+								<td class="miniCartDescriptionTd">
+									<div class="miniCartDescription">
+										<h4>
+											<a href="/productDetail/C-268414?skuId=260147&amp;Color=Grey">
+												Firestone Building Products 60 mil x 10' x 100' UltraPly™ TPO
+												Membrane Grey
+											</a>
+										</h4>
+										<dl class="dl-horizontal u-identifier">
+											<dt class="type">
+												Item#:
+											</dt>
+											<dd class="value">260147</dd>
+										</dl>
+									</div>
+								</td>
+								<td class="miniCartQuantity">
+									<div class="unit-price">
+										$683.42
+										<span>/&nbsp;RL</span>
+									</div>
+									<div class="total-qty">
+										QTY&nbsp;&nbsp;1
+									</div>
+									<div class="total-account">
+										$683.42
+									</div>
+								</td>
+								<td class="miniCartAction">
+									<a data-commerceid="ci1553000082" title="Remove">
+										<i class="glyphicon glyphicon-trash removeItemFromMiniCart"
+										   data-commerceid="ci1553000082" data-carturl="/cart"
+										   data-carminiurl="/cartMini"></i>
+									</a>
+								</td>
+							</tr>
+							<tr class="miniCartProduct">
+								<td class="miniCartProductThumb">
+									<div>
+										<a href="/productDetail/C-268414?skuId=260147&amp;Color=Grey">
+											<div class="beaconImageTagContainer">
+												<img src="/images/large/260147_default_thumb.jpg" alt="img"
+													 class="img-responsive BCImageResult1 mCS_img_loaded"
+													 onerror="this.src='/images/default_not_found.jpg'"
+													 style="transform: none;">
+											</div>
+										</a>
+									</div>
+								</td>
+								<td class="miniCartDescriptionTd">
+									<div class="miniCartDescription">
+										<h4>
+											<a href="/productDetail/C-268414?skuId=260147&amp;Color=Grey">
+												Firestone Building Products 60 mil x 10' x 100' UltraPly™ TPO
+												Membrane Grey
+											</a>
+										</h4>
+										<dl class="dl-horizontal u-identifier">
+											<dt class="type">
+												Item#:
+											</dt>
+											<dd class="value">260147</dd>
+										</dl>
+									</div>
+								</td>
+								<td class="miniCartQuantity">
+									<div class="unit-price">
+										$683.42
+										<span>/&nbsp;RL</span>
+									</div>
+									<div class="total-qty">
+										QTY&nbsp;&nbsp;1
+									</div>
+									<div class="total-account">
+										$683.42
+									</div>
+								</td>
+								<td class="miniCartAction">
+									<a data-commerceid="ci1553000082" title="Remove">
+										<i class="glyphicon glyphicon-trash removeItemFromMiniCart"
+										   data-commerceid="ci1553000082" data-carturl="/cart"
+										   data-carminiurl="/cartMini"></i>
+									</a>
+								</td>
+							</tr>
+							<tr class="miniCartProduct">
+								<td class="miniCartProductThumb">
+									<div>
+										<a href="/productDetail/C-268414?skuId=260147&amp;Color=Grey">
+											<div class="beaconImageTagContainer">
+												<img src="/images/large/260147_default_thumb.jpg" alt="img"
+													 class="img-responsive BCImageResult1 mCS_img_loaded"
+													 onerror="this.src='/images/default_not_found.jpg'"
+													 style="transform: none;">
+											</div>
+										</a>
+									</div>
+								</td>
+								<td class="miniCartDescriptionTd">
+									<div class="miniCartDescription">
+										<h4>
+											<a href="/productDetail/C-268414?skuId=260147&amp;Color=Grey">
+												Firestone Building Products 60 mil x 10' x 100' UltraPly™ TPO
+												Membrane Grey
+											</a>
+										</h4>
+										<dl class="dl-horizontal u-identifier">
+											<dt class="type">
+												Item#:
+											</dt>
+											<dd class="value">260147</dd>
+										</dl>
+									</div>
+								</td>
+								<td class="miniCartQuantity">
+									<div class="unit-price">
+										$683.42
+										<span>/&nbsp;RL</span>
+									</div>
+									<div class="total-qty">
+										QTY&nbsp;&nbsp;1
+									</div>
+									<div class="total-account">
+										$683.42
+									</div>
+								</td>
+								<td class="miniCartAction">
+									<a data-commerceid="ci1553000082" title="Remove">
+										<i class="glyphicon glyphicon-trash removeItemFromMiniCart"
+										   data-commerceid="ci1553000082" data-carturl="/cart"
+										   data-carminiurl="/cartMini"></i>
+									</a>
+								</td>
+							</tr>
+							<tr class="miniCartProduct">
+								<td class="miniCartProductThumb">
+									<div>
+										<a href="/productDetail/C-268414?skuId=260147&amp;Color=Grey">
+											<div class="beaconImageTagContainer">
+												<img src="/images/large/260147_default_thumb.jpg" alt="img"
+													 class="img-responsive BCImageResult1 mCS_img_loaded"
+													 onerror="this.src='/images/default_not_found.jpg'"
+													 style="transform: none;">
+											</div>
+										</a>
+									</div>
+								</td>
+								<td class="miniCartDescriptionTd">
+									<div class="miniCartDescription">
+										<h4>
+											<a href="/productDetail/C-268414?skuId=260147&amp;Color=Grey">
+												Firestone Building Products 60 mil x 10' x 100' UltraPly™ TPO
+												Membrane Grey
+											</a>
+										</h4>
+										<dl class="dl-horizontal u-identifier">
+											<dt class="type">
+												Item#:
+											</dt>
+											<dd class="value">260147</dd>
+										</dl>
+									</div>
+								</td>
+								<td class="miniCartQuantity">
+									<div class="unit-price">
+										$683.42
+										<span>/&nbsp;RL</span>
+									</div>
+									<div class="total-qty">
+										QTY&nbsp;&nbsp;1
+									</div>
+									<div class="total-account">
+										$683.42
+									</div>
+								</td>
+								<td class="miniCartAction">
+									<a data-commerceid="ci1553000082" title="Remove">
+										<i class="glyphicon glyphicon-trash removeItemFromMiniCart"
+										   data-commerceid="ci1553000082" data-carturl="/cart"
+										   data-carminiurl="/cartMini"></i>
+									</a>
+								</td>
+							</tr>
+							<tr class="miniCartProduct">
+								<td class="miniCartProductThumb">
+									<div>
+										<a href="/productDetail/C-268414?skuId=260147&amp;Color=Grey">
+											<div class="beaconImageTagContainer">
+												<img src="/images/large/260147_default_thumb.jpg" alt="img"
+													 class="img-responsive BCImageResult1 mCS_img_loaded"
+													 onerror="this.src='/images/default_not_found.jpg'"
+													 style="transform: none;">
+											</div>
+										</a>
+									</div>
+								</td>
+								<td class="miniCartDescriptionTd">
+									<div class="miniCartDescription">
+										<h4>
+											<a href="/productDetail/C-268414?skuId=260147&amp;Color=Grey">
+												Firestone Building Products 60 mil x 10' x 100' UltraPly™ TPO
+												Membrane Grey
+											</a>
+										</h4>
+										<dl class="dl-horizontal u-identifier">
+											<dt class="type">
+												Item#:
+											</dt>
+											<dd class="value">260147</dd>
+										</dl>
+									</div>
+								</td>
+								<td class="miniCartQuantity">
+									<div class="unit-price">
+										$683.42
+										<span>/&nbsp;RL</span>
+									</div>
+									<div class="total-qty">
+										QTY&nbsp;&nbsp;1
+									</div>
+									<div class="total-account">
+										$683.42
+									</div>
+								</td>
+								<td class="miniCartAction">
+									<a data-commerceid="ci1553000082" title="Remove">
+										<i class="glyphicon glyphicon-trash removeItemFromMiniCart"
+										   data-commerceid="ci1553000082" data-carturl="/cart"
+										   data-carminiurl="/cartMini"></i>
+									</a>
+								</td>
+							</tr>
+							<tr class="miniCartProduct">
+								<td class="miniCartProductThumb">
+									<div>
+										<a href="/productDetail/C-268414?skuId=260147&amp;Color=Grey">
+											<div class="beaconImageTagContainer">
+												<img src="/images/large/260147_default_thumb.jpg" alt="img"
+													 class="img-responsive BCImageResult1 mCS_img_loaded"
+													 onerror="this.src='/images/default_not_found.jpg'"
+													 style="transform: none;">
+											</div>
+										</a>
+									</div>
+								</td>
+								<td class="miniCartDescriptionTd">
+									<div class="miniCartDescription">
+										<h4>
+											<a href="/productDetail/C-268414?skuId=260147&amp;Color=Grey">
+												Firestone Building Products 60 mil x 10' x 100' UltraPly™ TPO
+												Membrane Grey
+											</a>
+										</h4>
+										<dl class="dl-horizontal u-identifier">
+											<dt class="type">
+												Item#:
+											</dt>
+											<dd class="value">260147</dd>
+										</dl>
+									</div>
+								</td>
+								<td class="miniCartQuantity">
+									<div class="unit-price">
+										$683.42
+										<span>/&nbsp;RL</span>
+									</div>
+									<div class="total-qty">
+										QTY&nbsp;&nbsp;1
+									</div>
+									<div class="total-account">
+										$683.42
+									</div>
+								</td>
+								<td class="miniCartAction">
+									<a data-commerceid="ci1553000082" title="Remove">
+										<i class="glyphicon glyphicon-trash removeItemFromMiniCart"
+										   data-commerceid="ci1553000082" data-carturl="/cart"
+										   data-carminiurl="/cartMini"></i>
+									</a>
+								</td>
+							</tr>
+							<tr class="miniCartProduct">
+								<td class="miniCartProductThumb">
+									<div>
+										<a href="/productDetail/C-268414?skuId=260147&amp;Color=Grey">
+											<div class="beaconImageTagContainer">
+												<img src="/images/large/260147_default_thumb.jpg" alt="img"
+													 class="img-responsive BCImageResult1 mCS_img_loaded"
+													 onerror="this.src='/images/default_not_found.jpg'"
+													 style="transform: none;">
+											</div>
+										</a>
+									</div>
+								</td>
+								<td class="miniCartDescriptionTd">
+									<div class="miniCartDescription">
+										<h4>
+											<a href="/productDetail/C-268414?skuId=260147&amp;Color=Grey">
+												Firestone Building Products 60 mil x 10' x 100' UltraPly™ TPO
+												Membrane Grey
+											</a>
+										</h4>
+										<dl class="dl-horizontal u-identifier">
+											<dt class="type">
+												Item#:
+											</dt>
+											<dd class="value">260147</dd>
+										</dl>
+									</div>
+								</td>
+								<td class="miniCartQuantity">
+									<div class="unit-price">
+										$683.42
+										<span>/&nbsp;RL</span>
+									</div>
+									<div class="total-qty">
+										QTY&nbsp;&nbsp;1
+									</div>
+									<div class="total-account">
+										$683.42
+									</div>
+								</td>
+								<td class="miniCartAction">
+									<a data-commerceid="ci1553000082" title="Remove">
+										<i class="glyphicon glyphicon-trash removeItemFromMiniCart"
+										   data-commerceid="ci1553000082" data-carturl="/cart"
+										   data-carminiurl="/cartMini"></i>
+									</a>
+								</td>
+							</tr>
+							<tr class="miniCartProduct">
+								<td class="miniCartProductThumb">
+									<div>
+										<a href="/productDetail/C-268414?skuId=260147&amp;Color=Grey">
+											<div class="beaconImageTagContainer">
+												<img src="/images/large/260147_default_thumb.jpg" alt="img"
+													 class="img-responsive BCImageResult1 mCS_img_loaded"
+													 onerror="this.src='/images/default_not_found.jpg'"
+													 style="transform: none;">
+											</div>
+										</a>
+									</div>
+								</td>
+								<td class="miniCartDescriptionTd">
+									<div class="miniCartDescription">
+										<h4>
+											<a href="/productDetail/C-268414?skuId=260147&amp;Color=Grey">
+												Firestone Building Products 60 mil x 10' x 100' UltraPly™ TPO
+												Membrane Grey
+											</a>
+										</h4>
+										<dl class="dl-horizontal u-identifier">
+											<dt class="type">
+												Item#:
+											</dt>
+											<dd class="value">260147</dd>
+										</dl>
+									</div>
+								</td>
+								<td class="miniCartQuantity">
+									<div class="unit-price">
+										$683.42
+										<span>/&nbsp;RL</span>
+									</div>
+									<div class="total-qty">
+										QTY&nbsp;&nbsp;1
+									</div>
+									<div class="total-account">
+										$683.42
+									</div>
+								</td>
+								<td class="miniCartAction">
+									<a data-commerceid="ci1553000082" title="Remove">
+										<i class="glyphicon glyphicon-trash removeItemFromMiniCart"
+										   data-commerceid="ci1553000082" data-carturl="/cart"
+										   data-carminiurl="/cartMini"></i>
+									</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="cart-footer text-right jq_haveProductTips">
+					<h3 class="text-right subtotal">
+						SUBTOTAL:
+						<span class="tips">Will be calculated at the time of invoicing.</span>
+					</h3>
+					<a class="btn btn-sm btn site-btn-templates" href="/cart">
+						<i class="fa fa-shopping-cart"></i>
+						VIEW CART
+					</a>
+					<a class="btn btn-sm btn-primary" id="jq_CartMiniCheckout">
+						CHECKOUT
+					</a>
+				</div>
+			</div>
+		</div>
+	</li>
+</ul>

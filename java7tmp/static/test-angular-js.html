@@ -1,0 +1,66 @@
+<html ng-app="myApp">
+<head target="_blank">
+<script language="JavaScript" src="jquery-1.9.1.min.js"></script>
+<script language="JavaScript" src="bootstrap.js"></script>
+<script language="JavaScript" src="angular-1.6.1.js"></script>
+<script language="JavaScript" src="angular-route-1.6.1.js"></script>
+<script language="JavaScript" src="angular-messages-1.6.1.js"></script>
+<script language="JavaScript" src="angular-resource-1.6.1.js"></script>
+<script language="JavaScript" src="testjs.js"></script>
+<link rel="stylesheet" href="bootstrap.css" />
+<link rel="stylesheet" href="testjs.css" />
+</head>
+<body>
+<!-- angular js 的form表单验证:
+在一个form标签里,用name="xxx"声明一个form表单验证对象,在具体的某一个表单,也是用name='xx'去关联
+比如:<form name='userForm'>    <input name="firstName"> 则验证的时候用$scope对象userForm.firstName.$invalid等等就可以了
+但是<input>的值是另一个ng-model='user.firstName'的$scope.user对象来关联,这两个是不同的!一个是用于验证,一个是用于传值 -->
+
+	<!-- in angulajs, "controller" is module, inside controller is "view" -->
+	<div ng-controller="mainController">
+		<!-- 替换这个token值并不是替换html,而是替换内存,所以view page source时,该token也依然存在 -->
+		<h1>Hello World! your name is: {{ myName }}</h1>
+		<label> your input value is: {{ inputValue }}</label> <br> <label> your input value upper case is: {{ inputValueUpperCaseFunction() }}</label> <br> <input type="text" ng-model="inputValue" /> <br>
+		<!-- ng-if等效于ng-show, 相反于ng-hide -->
+		<div class="alert" ng-class="{ 
+			'alert-danger':inputValue.length < minLength, 
+			'alert-warning':inputValue.length == minLength,
+			'alert-success':inputValue.length > minLength }">
+			<div ng-if="inputValue.length < minLength ">less than {{ minLength }} charactors!</div>
+			<div ng-if="inputValue.length == minLength ">equals {{ minLength }} charactors!</div>
+			<div ng-if="inputValue.length >minLength ">more than {{ minLength }} charactors!</div>
+		</div>
+		<br>
+		<h3>lists:</h3>
+		<ul>
+			<li ng-repeat="item in lists">
+				{{ item.displayName }}
+			</li>
+		</ul>
+		<!-- ng-cloak 指令用于在 AngularJS 应用在加载时防止 AngularJS 代码未加载完而出现的问题。
+AngularJS 应用在加载时，文档可能会由于AngularJS 代码未加载完而出现显示 AngularJS 代码，进而会有闪烁的效果， ng-cloak 指令是为了防止该问题的发生。 -->
+		<h3 ng-cloak>this is minLength: {{ minLength }}</h3>
+		<br>
+		{{ name2 }}
+	</div>
+	<hr>
+	<a href="home">go to main</a>
+	<br>
+	<a href="pdp">go to pdp</a>
+	<div ng-view></div>
+	<hr>
+	<div ng-controller="secondController">
+		{{ name2 }}
+	</div>
+	<hr>
+	<form name="myForm">
+		<label> Enter text: <input type="email" ng-model="field" name="myField" required maxlength="15" />
+		</label>
+		<div ng-messages="myForm.myField.$error" role="alert">
+			<div class="alert alert-danger" ng-message="required">Please enter a value for this field.</div>
+			<div class="alert alert-danger" ng-message="email">This field must be a valid email address.</div>
+			<div class="alert alert-danger" ng-message="maxlength">This field can be at most 15 characters long.</div>
+		</div>
+	</form>
+</body>
+</html>
